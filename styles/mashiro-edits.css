@@ -790,6 +790,22 @@ body {
 .info-area a {
   color:var(--pink)!important;
 }
+
 .info-area a:hover {
   color:var(--light-pink)!important;
+}
+
+.info-item.proofing {
+  grid-column:1/2;
+  grid-row:3/3;
+}
+
+.info-item.translation {
+  grid-column:2/4;
+  grid-row:3/3;
+}
+
+.info-item.date {
+  grid-column:4/5;
+  grid-row:3/3;
 }
