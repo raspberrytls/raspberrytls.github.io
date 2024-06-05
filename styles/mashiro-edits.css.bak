@@ -773,7 +773,6 @@ body {
 	height:60px!important;
 	top:15px!important;
 	left:10px!important;
-	border: solid 1px var(--dark-teal);
 }
 
 [character]::after {

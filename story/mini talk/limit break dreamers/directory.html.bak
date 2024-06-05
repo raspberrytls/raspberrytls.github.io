@@ -1,92 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
 	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Talk: Limit Break Dreamers (Valkyrie).</title>
     <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
-	
 	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/enstars/mashiro@latest/mashiro.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/enstars/mashiro@latest/index.min.js"></script>
   </head>
   <body>
     <div class=main>
-      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=header><img src="/media/sites/cats on train.gif"></div>
       <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
       
-		<div class=text>
-			<div class="directoryheader">
-				<h2 style="margin-bottom: 2em;">Mini Talk: Limit Break Dreamers (Valkyrie)</h2>
-				<img class="imgborder" src="/media/mini talk limit break dreamers cover.jpg">
-			</div>
-			<br>
-			<table class="storyinformation">
-				<tr>
-					<th>Season</th>
-					<th>Release Date</th>
-				</tr>
-				<tr>
-					<td><i class="fa-solid fa-star"></i></td>
-					<td>April 28 2024</td>
-				</tr>
-			</table>
-			<blockquote>
-				<b>Characters:</b> Mika, Shu<br>
-			</blockquote>
-			
-			<figure>
+	  <div class=text>
+		<div class="directoryheader">
+			<h2 style="margin-bottom: 2em;">Mini Talk: Limit Break Dreamers (Valkyrie)</h2>
+			<img class="imgborder" src="/media/mini talk limit break dreamers cover.jpg">
+		</div>
+		<br>
+		<table class="storyinformation">
+			<tr>
+				<th>Season</th>
+				<th>Release Date</th>
+			</tr>
+			<tr>
+				<td><i class="fa-solid fa-star"></i></td>
+				<td>April 28 2024</td>
+			</tr>
+		</table>
+		<blockquote>
+			<b>Characters:</b> Mika, Shu<br>
+		</blockquote>
+		<div class="oissu" data-oissu-display="es-idol-outfit">
+            <figure>
                 <img src="/media/mini talk limit break dreamers 1-1.jpg">
             </figure>
 			
-			<div class=msr-unit character="Mika"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-				<p>I tried on the outfit, an' it's definitely gotta different feelin' from how we usually are...</p>
-				<p>Oh, 'course I mean that in a good way, though. Oshi-san looks super cool, an' I'm happy t' have a change of pace... ♪</p>
-			</div></div>
-			<div class=msr-unit character="Shu"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-				<p>It's not terrible to wear, and with how much movement the choreography requires, this outfit should have a sufficient range of mobility.</p>
-			</div></div>
-
-				<div class="minitalk" character="Anzu">
-						<div class="minitalk-option">
-							<div class="minitalk-option_header">
-								I'm glad.
-							</div>
-							<div class="minitalk-option_content">
-								<figure>
-									<img src="/media/mini talk limit break dreamers 1-2.jpg">
-								</figure>
-								<div class=msr-unit character="Shu"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-									<p>If you were that worried, you should have at least sought out my opinion <i>before</i> making the outfit.</p>
-									<p>...What's with that face? I would not turn you away if you were to seek my advice.</p>
-								</div></div>
-								<div class=msr-unit character="Mika"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-									<p><span class="thought">(Oshi-san, I wonder if whatcha really wanted was t' be someone Anzu-chan could rely on...? Sayin' that might cause trouble, though, so I'll keep quiet. ♪)</span></p>
-								</div></div>
-							</div>
-						</div>
-						<div class="minitalk-option">
-							<div class="minitalk-option_header">
-								It suits the both of you.
-							</div>
-							<div class="minitalk-option_content">
-								<figure>
-									<img src="/media/mini talk limit break dreamers 1-3.jpg">
-								</figure>
-								<div class=msr-unit character="Mika"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-									<p>Thank ya kindly. ♪ I really like this jacket especially. When light reflects off it, can'tcha see all the different colors?</p>
-									<p>I wonder how it'll look glitterin' on stage with a buncha light sticks shinin' on it?</p>
-								</div></div>
-								<div class=msr-unit character="Shu"><div class=msr-icon><div class=msr-icon__wrapper><div class=msr-icon__base></div></div></div><div class=msr-name></div><div class=msr-line>
-									<p>I'm sure each individual idol will differ in the brilliance they emit whilst sharing in others' raw energy. Fufu, I'm looking forward to it as well.</p>
-								</div></div>
-					</div></div>
-							</div>
-		
-		</div>
+			<p>
+			<b>Mika:</b> I tried on the outfit, an' it's definitely gotta different feelin' from how we usually are...
+			</p>
+			<p>
+			<b>Mika:</b> Oh, 'course I mean that in a good way, though. Oshi-san looks super cool, an' I'm happy t' have a change of pace... ♪
+			</p>
+			<p>
+			<b>Shu:</b> It's not terrible to wear, and with how much movement the choreography requires, this outfit should have a sufficient range of mobility.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> I'm glad.
+			</p></blockquote>
+			<figure>
+                <img src="/media/mini talk limit break dreamers 1-2.jpg">
+            </figure>
+			<p>
+			<b>Shu:</b> If you were that worried, you should have at least sought out my opinion <i>before</i> making the outfit.
+			</p>
+			<p>
+			<b>Shu:</b> ...What's with that face? I would not turn you away if you were to seek my advice.
+			</p>
+			<p>
+			<b>Mika:</b> (Oshi-san, I wonder if whatcha really wanted was t' be someone Anzu-chan could rely on...? Sayin' that might cause trouble, though, so I'll keep quiet. ♪)
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> It suits both of you.
+			</p></blockquote>
+			<figure>
+                <img src="/media/mini talk limit break dreamers 1-3.jpg">
+            </figure>
+			<p>
+			<b>Mika:</b> Thank ya kindly. ♪ I really like this jacket especially. When light reflects off it, can'tcha see all the different colors?
+			</p>
+			<p>
+			<b>Mika:</b> I wonder how it'll look glitterin' on stage with a buncha light sticks shinin' on it?
+			</p>
+			<p>
+			<b>Shu:</b> I'm sure each individual idol will differ in the brilliance they emit whilst sharing in others' raw energy. Fufu, I'm looking forward to it as well.
+			</p>
+			
+	    </div>
+	  </div>
 	    
       <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
     </div>

@@ -130,7 +130,6 @@ blockquote:hover {
 
 li {
   text-align: left;
-  font-family: Karla, sans-serif;
 }
 
 p {
