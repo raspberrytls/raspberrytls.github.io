@@ -782,3 +782,14 @@ body {
 	top:17px!important;
 	left:82px!important;
 }
+
+.info-item {
+  border: var(--dark-teal) 1.5px solid;
+}
+
+.info-area a {
+  color:var(--pink)!important;
+}
+.info-area a:hover {
+  color:var(--light-pink)!important;
+}
