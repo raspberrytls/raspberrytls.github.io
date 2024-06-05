@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Story That's Mine Alone ／ Chapter 2.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>A Story That's Mine Alone ／ <b>Chapter 2</b></h2>
+		<blockquote>
+			<p><b>Characters:</b> Mika, Shu</p>
+		</blockquote>
+	    <div class="oissu" data-oissu-next="2 Chapter 2" data-oissu-directory="directory Directory" data-oissu-display="es-unit-outfit">
+		
+            <figure>
+                <img src="/media/a story that's mine alone 2-1.jpg">
+            </figure>
+			
+			<p>
+			<b>Mika:</b> 
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

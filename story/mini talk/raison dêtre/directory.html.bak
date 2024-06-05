@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Talk: Remplacer＊The Talking Doll and Raison d'être ／ Directory.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class=text>
+		<div class="directoryheader">
+			<h2 style="margin-bottom: 2em;">Mini Talk: Remplacer＊The Talking Doll and Raison d'être ／ <b>Directory</b></h2>
+			<img class="imgborder" src="/media/raison_d'être_cover.png">
+			<h2 style="margin-top: 2em; margin-bottom: 0em;"><b>Mini Talk: Remplacer＊The Talking Doll and Raison d'être</b></h2>
+			<p style="margin-top: 0em; margin-bottom: 2em;">ミニトーク：Remplacer＊語る人形とレゾンデートル</p>
+		</div>
+		<table class="storyinformation">
+			<tr>
+				<th>Season</th>
+				<th>Talks</th>
+				<th>Release Date</th>
+			</tr>
+			<tr>
+				<td><i class="fa-regular fa-snowflake"></i></td>
+				<td>24</td>
+				<td>August 28 2023</td>
+			</tr>
+		</table>
+		<blockquote>
+			<b>Characters:</b> Kuro, Nazuna, Mika, Shu<br>
+		</blockquote>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Shu Itsuki</b> 斎宮 宗</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="shu-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="shu-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="shu-3">3</a></div>
+			<div class="directorylink"><a class="storybutton" href="shu-4">4</a></div>
+			<div class="directorylink"><a class="storybutton" href="shu-5">5</a></div>
+			<div class="directorylink"><a class="storybutton" href="shu-6">6</a></div>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Nazuna Nito</b> 仁兎 なずな</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="nazuna-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="nazuna-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="nazuna-3">3</a></div>
+			<div class="directorylink"><a class="storybutton" href="nazuna-4">4</a></div>
+			<div class="directorylink"><a class="storybutton" href="nazuna-5">5</a></div>
+			<div class="directorylink"><a class="storybutton" href="nazuna-6">6</a></div>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Mika Kagehira</b> 影片 みか</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="mika-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="mika-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="mika-3">3</a></div>
+			<div class="directorylink"><a class="storybutton" href="mika-4">4</a></div>
+			<div class="directorylink"><a class="storybutton" href="mika-5">5</a></div>
+			<div class="directorylink"><a class="storybutton" href="mika-6">6</a></div>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Kuro Kiryu</b> 鬼龍 紅郎</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="kuro-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="kuro-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="kuro-3">3</a></div>
+			<div class="directorylink"><a class="storybutton" href="kuro-4">4</a></div>
+			<div class="directorylink"><a class="storybutton" href="kuro-5">5</a></div>
+			<div class="directorylink"><a class="storybutton" href="kuro-6">6</a></div>
+		</div>
+		
+	  </div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

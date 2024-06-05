@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mika Kagehira ／ Unexpected Free Time.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>Mika Kagehira ／ <b>Unexpected Free Time 1</b></h2>
+	    <div class="oissu" data-oissu-prev="nazuna-6 Nazuna Nito ／ <b>Good Taste in Choosing Souvenirs 3" data-oissu-next="mika-2 Mika Kagehira ／ <b>Unexpected Free Time 2" data-oissu-directory="directory Directory" data-oissu-display="es-unit-outfit">
+            <figure>
+                <img src="https://i.imgur.com/sACEnVh.jpg">
+            </figure>
+			
+			<p>
+			<b>Mika:</b> Nnah~, what kinda...
+			</p>
+			<p>
+			<b>Mika:</b> Ah, Anzu-chan. Nn-uhh, I had individual work after this, but it was changed to a different day after the co-star suddenly got sick.
+			</p>
+			<p>
+			<b>Mika:</b> I've got some free time 'cause of that, so I'm just eatin' some food fer now.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> That's difficult.
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> I was surprised since I was contacted so suddenly, but I think it's really the staff who're havin' it rough.
+			</p>
+			<p>
+			<b>Mika:</b> With the actor's schedule adjustment an' such, there's prob'ly a lotta things t'do. That makes me think that I really oughta be more careful with my own health.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> That looks delicious.
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> Yeah, all the flavors comin' together in my mouth is real tasty ♪ Kiryu-senpai recommended this menu t'me before.
+			</p>
+			<p>
+			<b>Mika:</b> An' then, he told me that I'd better eat more, so I asked fer a lil' extra, but... I dunno if I can finish it all?
+			</p>
+			<blockquote><p>
+			<b>SELECT</b> You should relax and take it easy every now and then.
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> That's right, but what kinda thing would be good t'do fer relaxin', specifically? Sewin' is anything but calmin', since I jus' end up concentratin' real hard...
+			</p>
+			<p>
+			<b>Mika:</b> Yea~h. It's real difficult t'figure out how y'should spend yer free time.
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

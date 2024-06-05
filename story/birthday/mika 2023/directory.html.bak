@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oshi Room.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class=text>
+		<div class="directoryheader">
+			<h2 style="margin-bottom: 2em;">Oshi Room</h2>
+			<img class="imgborder" src="/media/oshi room cover.jpg">
+			<h2 style="margin-top: 2em; margin-bottom: 0em;"><b>A Room Where You'll Definitely Find an Oshi</b></h2>
+			<p style="margin-top: 0em; margin-bottom: 2em;">絶対に推しできる部屋</p>
+		</div>
+		<table class="storyinformation">
+			<tr>
+				<th>Writer</th>
+				<th>Season</th>
+				<th>Release Date</th>
+			</tr>
+			<tr>
+				<td>Happy Elements</td>
+				<td><i class="fa-solid fa-star"></i></td>
+				<td>March 15 2023</td>
+			</tr>
+		</table>
+		<blockquote>
+			<b>Characters:</b> Mika, Shu<br>
+		</blockquote>
+		*"Oshi" is a word used to label your favorite individual from a particular group. In Ensemble Stars, it's common to call your favorite character your "Oshi" and say you "produce" them.
+		<img src="/media/oshi room 1.jpg"><img src="/media/oshi room 2.jpg">
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Q&A</b> Q&A</div>
+			<br>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Getting in Touch</b> 連絡</div>
+			<br>
+		</div>
+		
+	  </div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

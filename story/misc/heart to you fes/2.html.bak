@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEART to YOU FES ／ Talk 2.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>HEART to YOU FES ／ <b>Talk 2</b></h2>
+		<blockquote>
+			<p><b>Characters:</b> Wataru, Kanata, Rei, Shu, Natsume</p>
+		</blockquote>
+	    <div class="oissu" data-oissu-prev="" data-oissu-next="" data-oissu-directory="directory Directory">
+            <figure>
+                <img src="https://i.imgur.com/WRec1d8.jpg">
+            </figure>
+			
+			<p>
+			<b>Rei:</b> Oya, the "Five Eccentrics" convening at this venue is quite unexpected. What an odd turn of fate this is... ♪
+			</p>
+			<p>
+			<b>Shu:</b> You have a romantic way of saying "a strange coincidence" and the like, Rei. Today's event will be attended by all ES idols. I don't believe the five of us finding ourselves together is unusual.
+			</p>
+			<p>
+			<b>Kanata:</b> that is so, isn't it~. being able to "chat" together with everyone makes me very happy~ ♪
+			</p>
+			<p>
+			<b>Wataru:</b> As this is such a precious festival, why don't we perform an impromptu stage of the "Five Eccentrics" at a venue somewhere-?
+			</p>
+			<p>
+			<b>Wataru:</b> Fufufu ☆ And thus it was decided that we will depart in search of a venue!
+			</p>
+			<p>
+			<b>Natsume:</b> I'm taking a breAK, but when I'm with my older brotheRS, I feel like I can't rest at aLL.
+			</p>
+			<p>
+			<b>Natsume:</b> ...but this noisiness does feel rather niCE ♪
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

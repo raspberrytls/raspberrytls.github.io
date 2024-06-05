@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shu Itsuki's Birthday 2023 ／ Directory.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class=text>
+		<div class="directoryheader">
+			<h2 style="margin-bottom: 2em;">Shu Itsuki's Birthday 2023 ／ <b>Directory</b></h2>
+			<img class="imgborder" src="/media/shu itsuki birthday 2023 cover.jpg">
+			<h2 style="margin-top: 2em; margin-bottom: 0em;"><b>Shu Itsuki's Birthday 2023</b></h2>
+			<p style="margin-top: 0em; margin-bottom: 2em;">斎宮 宗のBIRTHDAY（2023）</p>
+		</div>
+		<table class="storyinformation">
+			<tr>
+				<th>Season</th>
+				<th>Talks</th>
+				<th>Release Date</th>
+			</tr>
+			<tr>
+				<td><i class="fa-brands fa-canadian-maple-leaf"></i></td>
+				<td>9</td>
+				<td>October 30 2023</td>
+			</tr>
+		</table>
+		<blockquote>
+			<b>Characters:</b> Kanata, Rei, Shu<br>
+		</blockquote>
+		<p><b>Voiceline:</b> You're going to celebrate my birth? Hmm, I don't want to make too much of a fuss over it, but... You get the point.</p>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Birthday Moment</b> 誕生日のひととき</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="bday-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday-3">3</a></div>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Night of the Birthday / First Part</b> バースデーの夜に/前編</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="bday1-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday1-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday1-3">3</a></div>
+		</div>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Night of the Birthday / Second Part</b> バースデーの夜に/後編</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="bday2-1">1</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday2-2">2</a></div>
+			<div class="directorylink"><a class="storybutton" href="bday2-3">3</a></div>
+		</div>
+		<p><b>Phone Call:</b> Hello. Today's party was not bad... No, I was surprised at how it exceeded my expectations. It is unlike me to be joyful about my birthday, but I suppose this sort of day is nice on occasion. You have my gratitude.</p>
+		
+	  </div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

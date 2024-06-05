@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made Me ／ Directory.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class=text>
+		<div class="directoryheader">
+			<h2 style="margin-bottom: 2em;">Made Me ／ <b>Directory</b></h2>
+			<img class="imgborder" src="/media/made_me_cover.png">
+			<h2 style="margin-top: 2em; margin-bottom: 0em;"><b>Made Me</b></h2>
+			<p style="margin-top: 0em; margin-bottom: 2em;">Made Me</p>
+		</div>
+		<table class="storyinformation">
+			<tr>
+				<th>Writer</th>
+				<th>Season</th>
+				<th>Chapters</th>
+				<th>Release Date</th>
+			</tr>
+			<tr>
+				<td>Yuumasu</td>
+				<td><i class="fa-brands fa-canadian-maple-leaf"></i></td>
+				<td>6</td>
+				<td>November 14 2023</td>
+			</tr>
+		</table>
+		<blockquote>
+			<b>Characters:</b> Tetora, Tori, Tsukasa, Ritsu, Arashi, Izumi, Leo, Mika, Hiyori, Jun, Aira, Mayoi, HiMERU<br>
+		</blockquote>
+		<blockquote>
+			<p>Arashi is acting as a publicity ambassador for the limited-time café "Pretty Room". So that they can make it into a place anyone can enjoy, she requests Jun to be a "Special Pretty Advisor".</p>
+		</blockquote>
+		<div class="storysection">
+			<br>
+			<div class="storysectiontitle"><b>Make You</b> Make You</div>
+			<br>
+			<div class="directorylink"><a class="storybutton" href="1">1</a><div class="summarypreview"><p><b>Characters:</b> Tori, Tsukasa, Ritsu, Arashi, Izumi, Leo, Mika, Hiyori, Aira</p></div></div>
+			<div class="directorylink"><a class="storybutton-notuploaded" href="2">2</a><div class="summarypreview"><p>This chapter has not been uploaded yet.</p></div></div>
+			<div class="directorylink"><a class="storybutton-notuploaded" href="3">3</a><div class="summarypreview"><p>This chapter has not been uploaded yet.</p></div></div>
+			<div class="directorylink"><a class="storybutton-notuploaded" href="4">4</a><div class="summarypreview"><p>This chapter has not been uploaded yet.</p></div></div>
+			<div class="directorylink"><a class="storybutton-notuploaded" href="5">5</a><div class="summarypreview"><p>This chapter has not been uploaded yet.</p></div></div>
+			<div class="directorylink"><a class="storybutton-notuploaded" href="6">6</a><div class="summarypreview"><p>This chapter has not been uploaded yet.</p></div></div>
+		</div>
+	  </div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mika Kagehira's Birthday 2023 ／ Birthday Moment.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>Mika Kagehira's Birthday 2023 ／ <b>Birthday Moment 2</b></h2>
+	    <div class="oissu" data-oissu-prev="bday-1 Mika Kagehira's Birthday 2023 ／ <b>Birthday Moment 1" data-oissu-next="bday-3 Mika Kagehira's Birthday 2023 ／ <b>Birthday Moment 3" data-oissu-directory="directory Directory" data-oissu-display="es-idol-outfit">
+            <figure>
+                <img src="/media/mika kagehira birthday 2023 2.jpg">
+            </figure>
+			
+			<p>
+			<b>Shu:</b> I'm somewhat bored. I'm going to make tea. The two of you can wait here.
+			</p>
+			<p>
+			<b>Mika:</b> Nnah– if ya want tea, I can make it. Oh, he's already left...
+			</p>
+			<p>
+			<b>Mika:</b> Ugh... Oshi-san's been even more thoughtful than usual today. 'S a lil' scary...
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Can I talk to you for a bit?
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> What's wrong? Ya wanna know if I can spare some time after the party?
+			</p>
+			<p>
+			<b>Mika:</b> Is it okay if I check with Oshi-san first? If I'm all good, I'll contact ya on Hallhands. ♪
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Probably...
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> Huh? He's treatin' me kindly 'cause 's my birthday? If ya say so, I guess yer right...?
+			</p>
+			<p>
+			<b>Mika:</b> So ya wanna talk t' me after the party, Anzu-chan. In that case, I'll make sure t' make time fer ya. ♪
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

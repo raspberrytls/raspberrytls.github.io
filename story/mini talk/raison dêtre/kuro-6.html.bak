@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuro Kiryu ／ Peaceful Time.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>Kuro Kiryu ／ <b>Peaceful Time 3</b></h2>
+	    <div class="oissu" data-oissu-prev="kuro-5 Kuro Kiryu ／ <b>Peaceful Time 2" data-oissu-directory="directory Directory" data-oissu-display="es-unit-outfit">
+            <figure>
+                <img src="https://i.imgur.com/tNIDfCK.jpg">
+            </figure>
+			
+			<p>
+			<b>Kuro:</b> Well, then. I'd like to talk to you still, Little Miss, but I've gotta go before too long.
+			</p>
+			<p>
+			<b>Kuro:</b> I'm in the middle of making a costume. Work came to a standstill, so I went out for a bit and met up with you.
+			</p>
+			<p>
+			<b>Kuro:</b> Actually, I was the one who came to take a breather. Of course, it's fine if you still stay, Little Miss.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Please show me next time.
+			</p></blockquote>
+			<p>
+			<b>Kuro:</b> Haha, I can't refuse when you say that with such hope in your eyes.
+			</p>
+			<p>
+			<b>Kuro:</b> Got it, I'll show you the costume when it's finished. If I'm going to show it to you, then I'm even more fired up to finish it.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Good work today.
+			</p></blockquote>
+			<p>
+			<b>Kuro:</b> You, too. You still have work to do after this, right?
+			</p>
+			<p>
+			<b>Kuro:</b> I know you're busy, but if you ever have time again, we can meet and talk while drinking tea. ♪
+			</p>
+			<blockquote><p>
+			<b>SELECT</b> Thank you very much.
+			</p></blockquote>
+			<p>
+			<b>Kuro:</b> 'Course. Thanks to you, I also had a good break, so thanks.
+			</p>
+			<p>
+			<b>Kuro:</b> Let's both do our best in our work.
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+:root {
+	--eichi: #FFF3B8;
+	--wataru: #b8f4ff;
+	--tori: #F5B2B2;
+	--yuzuru: #a3c1ff;
+
+	--subaru: #F3981D;
+
+	--chiaki: #e0385d;
+	--kanata: #008DB7;
+	--tetora: #a88bb3;
+	--midori: #00ba8d;
+	--shinobu: #ffea66;
+	
+	--shu: #E3ACAE;
+	--mika: #85f0f2;
+
+	--hinata: #EB6EA0;
+	--yuuta: #00A1E9;
+
+	--rei: #47266E;
+	--kaoru: #FDD35C;
+	--koga: #C9CACA;
+	--adonis: #915DA3;
+
+	--tomoya: #EFDDB3;
+	--nazuna: #FFEC47;
+	--mitsuru: #ED6D35;
+	--hajime: #CBB8D9;
+
+	--keito: #8af2b1;
+	--kuro: #f77b6f;
+	--souma: #b7b5ff;
+}
+
+.eichi {
+	color: var(--eichi);
+}
+
+.wataru {
+	color: var(--wataru);
+}
+
+.tori {
+	color: var(--tori);
+}
+
+.yuzuru {
+	color: var(--yuzuru);
+}
+
+.eichi-wataru {
+	background: -webkit-linear-gradient(left, var(--eichi), var(--wataru));
+	background: -o-linear-gradient(right, var(--eichi), var(--wataru));
+	background: -moz-linear-gradient(right, var(--eichi), var(--wataru));
+	background: linear-gradient(to right, var(--eichi), var(--wataru)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.tori-yuzuru {
+	background: -webkit-linear-gradient(left, var(--tori), var(--yuzuru));
+	background: -o-linear-gradient(right, var(--tori), var(--yuzuru));
+	background: -moz-linear-gradient(right, var(--tori), var(--yuzuru));
+	background: linear-gradient(to right, var(--tori), var(--yuzuru)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.wataru-tori-yuzuru {
+	background: -webkit-linear-gradient(left, var(--wataru), var(--tori), var(--yuzuru));
+	background: -o-linear-gradient(right, var(--wataru), var(--tori), var(--yuzuru));
+	background: -moz-linear-gradient(right, var(--wataru), var(--tori), var(--yuzuru));
+	background: linear-gradient(to right, var(--wataru), var(--tori), var(--yuzuru)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fine {
+	background: -webkit-linear-gradient(left, var(--eichi), var(--wataru), var(--tori), var(--yuzuru));
+	background: -o-linear-gradient(right, var(--eichi), var(--wataru), var(--tori), var(--yuzuru));
+	background: -moz-linear-gradient(right, var(--eichi), var(--wataru), var(--tori), var(--yuzuru));
+	background: linear-gradient(to right, var(--eichi), var(--wataru), var(--tori), var(--yuzuru)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.subaru {
+	color: var(--subaru);
+}
+
+.ryuseitai {
+	background: -webkit-linear-gradient(left, var(--chiaki), var(--kanata), var(--tetora), var(--midori), var(--shinobu));
+	background: -o-linear-gradient(right, var(--chiaki), var(--kanata), var(--tetora), var(--midori), var(--shinobu));
+	background: -moz-linear-gradient(right, var(--chiaki), var(--kanata), var(--tetora), var(--midori), var(--shinobu));
+	background: linear-gradient(to right, var(--chiaki), var(--kanata), var(--tetora), var(--midori), var(--shinobu)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.shu {
+	color: var(--shu);
+}
+
+.mika {
+	color: var(--mika);
+}
+
+.valkyrie {
+	background: -webkit-linear-gradient(left, var(--shu), var(--mika));
+	background: -o-linear-gradient(right, var(--shu), var(--mika));
+	background: -moz-linear-gradient(right, var(--shu), var(--mika));
+	background: linear-gradient(to right, var(--shu), var(--mika)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.wink {
+	background: -webkit-linear-gradient(left, var(--hinata), var(--yuuta));
+	background: -o-linear-gradient(right, var(--hinata), var(--yuuta));
+	background: -moz-linear-gradient(right, var(--hinata), var(--yuuta));
+	background: linear-gradient(to right, var(--hinata), var(--yuuta)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.undead {
+	background: -webkit-linear-gradient(left, var(--rei), var(--kaoru), var(--koga), var(--adonis));
+	background: -o-linear-gradient(right, var(--rei), var(--kaoru), var(--koga), var(--adonis));
+	background: -moz-linear-gradient(right, var(--rei), var(--kaoru), var(--koga), var(--adonis));
+	background: linear-gradient(to right, var(--rei), var(--kaoru), var(--koga), var(--adonis)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rabits {
+	background: -webkit-linear-gradient(left, var(--tomoya), var(--nazuna), var(--mitsuru), var(--hajime));
+	background: -o-linear-gradient(right, var(--tomoya), var(--nazuna), var(--mitsuru), var(--hajime));
+	background: -moz-linear-gradient(right, var(--tomoya), var(--nazuna), var(--mitsuru), var(--hajime));
+	background: linear-gradient(to right, var(--tomoya), var(--nazuna), var(--mitsuru), var(--hajime));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.keito {
+	color: var(--keito);
+}
+
+.kuro {
+	color: var(--kuro);
+}
+
+.souma {
+	color: var(--souma);
+}
+
+.akatsuki {
+	background: -webkit-linear-gradient(left, var(--keito), var(--kuro), var(--souma));
+	background: -o-linear-gradient(right, var(--keito), var(--kuro), var(--souma));
+	background: -moz-linear-gradient(right, var(--keito), var(--kuro), var(--souma));
+	background: linear-gradient(to right, var(--keito), var(--kuro), var(--souma)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.keito-souma {
+	background: -webkit-linear-gradient(left, var(--keito), var(--souma));
+	background: -o-linear-gradient(right, var(--keito), var(--souma));
+	background: -moz-linear-gradient(right, var(--keito), var(--souma));
+	background: linear-gradient(to right, var(--keito), var(--souma)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.kuro-souma {
+	background: -webkit-linear-gradient(left, var(--kuro), var(--souma));
+	background: -o-linear-gradient(right, var(--kuro), var(--souma));
+	background: -moz-linear-gradient(right, var(--kuro), var(--souma));
+	background: linear-gradient(to right, var(--kuro), var(--souma)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

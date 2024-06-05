@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mika Kagehira ／ A Simple Lunch.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a>⠀<a href="/directory"><i class="fa-solid fa-sitemap"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>Mika Kagehira ／ <b>A Simple Lunch 3</b></h2>
+	    <div class="oissu" data-oissu-prev="mika-2 Mika Kagehira ／ <b>A Simple Lunch 2" data-oissu-next="" data-oissu-directory="directory Directory" data-oissu-display="es-unit-outfit">
+            <figure>
+                <img src="https://i.imgur.com/I8roEk4.jpg">
+            </figure>
+			
+			<p>
+			<b>Mika:</b> Oops, I've kept chatterin' on an' on... should we get goin' back t'ES?
+			</p>
+			<p>
+			<b>Mika:</b> It's not even noon yet, but the cold seems t'be gettin' stronger an' stronger...
+			</p>
+			<p>
+			<b>Mika:</b> Looks like it'll snow this evenin', so make sure to take care of yerself.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Take care that you don't catch a cold.
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> It's the season when people get sick 'n tired all of a sudden after the new year...
+			</p>
+			<p>
+			<b>Mika:</b> You too, Anzu-chan; please don't take on too much work fer yerself.
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Make sure to stay warm.
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> Oh, that reminds me— I knitted a lap blanket the other day.
+			</p>
+			<p>
+			<b>Mika:</b> It became so much bigger than I wanted it to... what could'a went wrong?
+			</p>
+			<blockquote><p>
+			<b>SELECT</b> Snow, huh...
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> The Deputy Director warned me t'be careful since it's s'posed t'snow a bunch tonight.
+			</p>
+			<p>
+			<b>Mika:</b> I got an interview tomorrow at ES, so it prob'ly won't get in the way of my work at all.
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>

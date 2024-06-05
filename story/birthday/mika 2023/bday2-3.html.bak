@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--https://yuukun.dev/oissu/docs-->
+	<script src="https://uchuu.yuukun.dev/oissu@1"></script>
+	<meta name="text:Oissu Settings" content=""></meta>
+	<script oissu>`{text:Oissu Settings}`</script>
+	<script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mika Kagehira's Birthday 2023 ／ Night of the Birthday / Second Part.</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="/media/CN_Enstars!!_Stickers_1_Mika.png">
+  </head>
+  <body>
+    <div class=main>
+      <div class=header><img src="/media/cats on train.gif"></div>
+      <div class=sub><a href="/"><i class="fa-solid fa-house"></i></a><br>raspberryjam's translation site.</div>
+      
+	  <div class="text">
+		<h2>Mika Kagehira's Birthday 2023 ／ <b>Night of the Birthday / Second Part 3</b></h2>
+	    <div class="oissu" data-oissu-prev="bday2-2 Mika Kagehira's Birthday 2023 ／ <b>Night of the Birthday / Second Part 2" data-oissu-directory="directory Directory" data-oissu-display="es-idol-outfit">
+            <figure>
+                <img src="/media/mika kagehira birthday 2023 9.jpg">
+            </figure>
+			
+			<p>
+			<b>Mika:</b> Thank ya a whole lot fer today. It was the best birthday I ever could'a had. ♪
+			</p>
+			<p>
+			<b>Mika:</b> I was also real happy that I got t' spend the whole day with Oshi-san. I'm glad I got t' have fun at the party with everyone.
+			</p>
+			<p>
+			<b>Mika:</b> Also, getting to see the starry sky with ya afterwards was a good memory. ♪
+			</p>
+			<blockquote><p>
+			<b>SELECT:</b> Why don't we look at it together with everyone next time?
+			</p></blockquote>
+			<p>
+			<b>Mika:</b> Good idea. I wanna invite Oshi-san an' Naru-chan an' everyone else.
+			</p>
+			<p>
+			<b>Mika:</b> It'd be so fun if we all wrapped ourselves in blankets while stargazin'. Nfufu, 'm lookin' forward to it. ♪
+			</p>
+			
+	    </div>
+	</div>
+	    
+      <div class=footer>Base style by EGGRAMEN, 2019. Header by <a href="https://1041uuu.tumblr.com" target="_blank">1041uuu</a>.</div>
+    </div>
+  </body>
+</html>
