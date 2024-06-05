@@ -1,0 +1,416 @@
+/** Anzu Chibi
+***/
+[character="Anzu"] {
+  --color: #ffb6da;
+  --hue: 330.4;
+  --name: "Anzu";
+  --charahead: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/anzu_charahead.png");
+}
+
+/** Arashi Expressions
+***/
+[character="Arashi"][kh1] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/arashi_kh1.png");
+}
+
+[character="Arashi"][kh2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/arashi_kh2.png");
+}
+
+/** Hajime and others
+***/
+/** With Hinata
+***/
+[character="hajimehinata"][attribute] {
+  --color: #da93bd;
+  --light-mode: hsl(324.51deg 58.79% 88.53%);
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/hajime_hinata.png");
+}
+
+.msr-name.hajimehinata {
+  content: "Hajime・Hinata";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #ab5190;
+}
+
+.msr-name.hajimehinata::before {
+  content: "Hajime・Hinata";
+}
+
+.msr-line.hajimehinata p {
+  color: #ab5190;
+}
+
+/** HiMERU Expressions
+***/
+[character="HiMERU"][angry] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_angry.png");
+}
+
+[character="HiMERU"][apologetic] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_apologetic.png");
+}
+
+[character="HiMERU"][autismstare] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_autismstare.png");
+}
+
+[character="HiMERU"][disappointed] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_disappointed.png");
+}
+
+[character="HiMERU"][distress] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_distress.png");
+}
+
+[character="HiMERU"][laugh] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_laugh.png");
+}
+
+[character="HiMERU"][lb] {
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1107203309615452230/himeru_lb.png");
+}
+
+[character="HiMERU"][neutral] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_neutral.png");
+}
+
+[character="HiMERU"][smile] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_smile.png");
+}
+
+[character="HiMERU"][smile2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_smile2.png");
+}
+
+[character="HiMERU"][smile3] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_smile3.png");
+}
+
+[character="HiMERU"][smug] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_smug.png");
+}
+
+[character="HiMERU"][smug2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_smug2.png");
+}
+
+[character="HiMERU"][softsmile] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_softsmile.png");
+}
+
+[character="HiMERU"][thinking] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_thinking.png");
+}
+
+[character="HiMERU"][thinking2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_thinking2.png");
+}
+
+[character="HiMERU"][troubled] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_troubled.png");
+}
+
+[character="HiMERU"][yareyare] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_yareyare.png");
+}
+
+/** HiMERU and others
+***/
+
+/** With Kaoru
+***/
+
+[character="himerukaoru"][attribute] {
+  --color: #c3cba4;
+  --light-mode: hsl(72.3deg 48.12% 86.34%);
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776608154599564/himeru_kaoru.png");
+}
+
+.msr-name.himerukaoru {
+  content: "HiMERU・Kaoru";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #869745;
+}
+
+.msr-name.himerukaoru::before {
+  content: "HiMERU・Kaoru";
+}
+
+.msr-line.himerukaoru p {
+  color: #869745;
+}
+
+/** With Niki
+***/
+[character="himeruniki"][attribute] {
+  --color: #6da1c7;
+  --light-mode: hsl(206.25deg 38.1% 83.53%);
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776608876019752/himeru_niki.png");
+}
+
+.msr-name.himeruniki {
+  content: "HiMERU・Niki";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #4f88b1;
+}
+
+.msr-name.himeruniki::before {
+  content: "HiMERU・Niki";
+}
+
+.msr-line.himeruniki p {
+  color: #4f88b1;
+}
+
+/** With Tetora
+***/
+[character="himerutetora"][attribute] {
+  --color: #5d758f;
+  --light-mode: hsl(211.2deg 31.05% 85.15%);
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/himeru_tetora.png");
+}
+
+.msr-name.himerutetora {
+  content: "HiMERU・Tetora";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #5d758f;
+}
+
+.msr-name.himerutetora::before {
+  content: "HiMERU・Tetora";
+}
+
+.msr-line.himerutetora p {
+  color: #5d758f;
+}
+
+/** Hiyori Expressions
+***/
+
+[character="Hiyori"][kh1] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/hiyori_kh1.png");
+}
+
+[character="Hiyori"][kh2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/hiyori_kh2.png");
+}
+
+/** Hokuto Expressions
+***/
+
+[character="Hokuto"][kh1] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/hokuto_kh1.png");
+}
+
+[character="Hokuto"][kh2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/hokuto_kh2.png");
+}
+
+/** Kanata Expressions
+***/
+[character="Kanata"][kh1] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/kanata_kh1.png");
+}
+
+[character="Kanata"][kh2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/kanata_kh2.png");
+}
+
+/** Kanata and others
+***/
+/** With Arashi
+***/
+[character="kanataarashi"][attribute] {
+  --color: #77b599;
+  --light-mode: hsl(152.31deg 39.39% 87.06%);
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/kanata_arashi.png");
+}
+
+.msr-name.kanataarashi {
+  content: "Kanata・Arashi";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #4a8f70;
+}
+
+.msr-name.kanataarashi::before {
+  content: "Kanata・Arashi";
+}
+
+.msr-line.kanataarashi p {
+  color: #4a8f70;
+}
+
+/** Kaoru and others
+***/
+/** With Rei
+***/
+[character="kaorurei"][attribute] {
+  --color: #a27d65;
+  --light-mode: hsl(23.61deg 25.21% 81.05%);
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776609215746149/kaoru_rei.png");
+}
+
+.msr-name.kaorurei {
+  content: "Kaoru・Rei";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #a27d65;
+}
+
+.msr-name.kaorurei::before {
+  content: "Kaoru・Rei";
+}
+
+.msr-line.kaorurei p {
+  color: #a27d65;
+}
+
+/** Leo Expressions
+***/
+
+[character="Leo"][mg] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/leo_mg.png");
+}
+
+/** Natsume and others
+***/
+/** With Midori
+***/
+[character="natsumemidori"][attribute] {
+  --color: #6b2a3a;
+  --light-mode: hsl(345.88deg 35.92% 81.57%);
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/natsume_midori.png");
+}
+
+.msr-name.natsumemidori {
+  content: "Natsume・Midori";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #a7334f;
+}
+
+.msr-name.natsumemidori::before {
+  content: "Natsume・Midori";
+}
+
+.msr-line.natsumemidori p {
+  color: #a7334f;
+}
+
+/** Rei Expressions
+***/
+[character="Rei"][lb] {
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776609761017996/rei_lb.png");
+}
+
+/** Rei and others
+***/
+/** With Kaoru
+***/
+[character="reikaoru"][attribute] {
+  --color: #a27d65;
+  --light-mode: hsl(23.61deg 25.21% 81.05%);
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776609467420742/rei_kaoru.png");
+}
+
+.msr-name.reikaoru {
+  content: "Rei・Kaoru";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #a27d65;
+}
+
+.msr-name.reikaoru::before {
+  content: "Rei・Kaoru";
+}
+
+.msr-line.reikaoru p {
+  color: #a27d65;
+}
+
+/** Rinne Expressions
+***/
+
+[character="Rinne"][default] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/rinne_default.png");
+}
+
+[character="Rinne"][dejected] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/rinne_dejected.png");
+}
+
+[character="Rinne"][pensative] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/rinne_pensative.png");
+}
+
+[character="Rinne"][triumphant] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/rinne_triumphant.png");
+}
+
+/** Tatsumi Expressions
+***/
+[character="Tatsumi"][aaa] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/tatsumi_aaa.png");
+}
+
+[character="Tatsumi"][kh1] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/tatsumi_kh1.png");
+}
+
+[character="Tatsumi"][kh2] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/tatsumi_kh2.png");
+}
+
+[character="Tatsumi"][libb] {
+  --icon: url("https://cdn.jsdelivr.net/gh/toujokaname/css@main/img/tatsumi_libb.png");
+}
+
+/** Tomoya and others
+***/
+/** With Aira
+***/
+
+[character="tomoyaaira"][attribute] {
+  --color: #fff5dd;
+  --light-mode: hsl(42.2deg 100% 93.36%);
+  --icon: url("https://cdn.discordapp.com/attachments/1106761485948031007/1106776610029441074/tomoya_aira.png");
+}
+
+.msr-name.tomoyaaira {
+  content: "Tomoya・Aira";
+  font-size: 0.85em;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: var(--msr-name-case);
+  color: #d7a65c;
+}
+
+.msr-name.tomoyaaira::before {
+  content: "Tomoya・Aira";
+}
+
+.msr-line.tomoyaaira p {
+  color: #d7a65c;
+}

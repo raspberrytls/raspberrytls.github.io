@@ -128,6 +128,10 @@ blockquote:hover {
 	background: var(--grey);
 }
 
+li {
+  text-align: left;
+}
+
 .main {
 	margin: 0 auto;
 	margin-top:30px;
