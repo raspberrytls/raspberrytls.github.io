@@ -784,7 +784,7 @@ body {
 }
 
 .info-item {
-  border: solid 1px rgba(var(--dark-teal),1)!important;
+  border: 1px solid var(--dark-teal)!important;
 }
 
 .info-area a {
