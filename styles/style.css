@@ -325,13 +325,15 @@ figure img {
 	border-radius: 5px;
 }
 
-.info-block .title {
-	text-align: left;
+.info-block .subtitle {
+	text-align: center;
+	border-bottom: solid 2px var(--dark-teal);
+	margin-top: -1.25em;
 }
 
-.info-block .subtitle {
-	text-align: left;
-	border-bottom: solid 2px var(--dark-teal);
+.info-block img {
+	mask-image: linear-gradient(to bottom,#000 70%,transparent 100%);
+	-webkit-mask-image: linear-gradient(to bottom,#000 70%,transparent 100%);
 }
 
 .storyinformation {
