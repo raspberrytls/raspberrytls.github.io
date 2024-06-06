@@ -137,7 +137,7 @@ p {
 	font-family: Karla, sans-serif;
 }
 
-figure {
+figure img {
 	box-shadow: 5px 3px var(--darkest-grey);
 }
 

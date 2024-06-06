@@ -368,10 +368,6 @@ body {
   color: #c37174;
 }
 
-.msr-unit[character="Shu"] p {
-	box-shadow: 5px 3px pink;
-}
-
 .msr-name.mika {
   font-size: 0.85em;
   line-height: 0.9;
@@ -382,10 +378,6 @@ body {
 
 .msr-line.mika p {
   color: #006a6c;
-}
-
-.msr-unit[character="Mika"] p {
-	box-shadow: 5px 3px lightblue;
 }
 
 .msr-name.hinata {
@@ -750,6 +742,10 @@ body {
 
 .msr-unit img {
 	visibility: hidden!important;
+}
+
+.msr-unit[character] p {
+  box-shadow: 5px 3px var(--color);
 }
 
 .msr-line p {
