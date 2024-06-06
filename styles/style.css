@@ -544,8 +544,8 @@ figure img {
 }
 
 .directory-image-container {
-	mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
+	mask-image: linear-gradient(to bottom,#000 0%,transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom,#000 0%,transparent 100%);
 }
 
 .directory-text-container {
