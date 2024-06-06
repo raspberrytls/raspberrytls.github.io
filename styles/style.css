@@ -166,7 +166,6 @@ figure img {
 
 #header-nav {
 	margin: 0;
-	position: absolute;
 	width: 100%;
 	line-height: 1;
 	text-align: center;
@@ -204,7 +203,7 @@ nav li a:hover {
 	transition: 0.2s;
 }
 
-nav li:hover .nav-sub li {
+nav li:hover {
 	visibility: visible;
 	overflow: visible;
 	height: 2em;
@@ -212,31 +211,11 @@ nav li:hover .nav-sub li {
 	transition: 0.2s;
 }
 
-nav li a, .nav-expandable {
+nav li a {
 	display: block;
 	text-transform: uppercase;
 	color: white;
 	transition: 0.2s;
-}
-
-.nav-sub {
-	display: flex;
-	height: inherit;
-	width: 100%;
-	justify-content: space-evenly;
-}
-
-.nav-sub li {
-	visibility: hidden;
-	overflow: hidden;
-	border-radius: 0;
-	border: 0;
-	height: 0;
-	width: 100%;
-}
-
-.nav-sub li a {
-	background: transparent;
 }
 
 /*Inner text area inside main div, below the header and image.*/
