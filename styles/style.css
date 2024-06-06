@@ -682,6 +682,19 @@ nav li a {
   margin: 0 5px;
 }
 
+.filters li a[character] {
+  display:inline-block;
+  background:var(--charahead) 0 0/cover;
+  height:40px;
+  width:40px;
+  margin:0 -3px;
+}
+
+.filters li a[character]::after,
+.filters li a[character]::before {
+  content:none;
+}
+
 .filters ul b {
   margin: 0 5px;
 }
