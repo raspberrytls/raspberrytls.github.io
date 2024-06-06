@@ -562,11 +562,11 @@ figure img {
 }
 
 .directory-text-container h3 {
-	bottom: 16px;
+	bottom: 18px;
 }
 
 .directory-text-container p {
-	bottom: -4px;
+	bottom: 30px;
 }
 
 .categories {
@@ -702,6 +702,6 @@ figure img {
 	
 	.filterDiv {
 	flex-grow: 1;
-	height: fit-content;
+	height: 100px;
 }
 }
