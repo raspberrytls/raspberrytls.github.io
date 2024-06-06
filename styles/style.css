@@ -326,7 +326,10 @@ nav li a {
 .page {
 	background:var(--dark-grey);
 	padding:25px;
-	text-align:center;
+}
+
+.directory-page {
+	text-align: center;
 }
 
 .directoryheader {
