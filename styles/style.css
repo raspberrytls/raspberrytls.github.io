@@ -323,12 +323,14 @@ nav li a {
 	opacity: 75%;
 }
 
-.page, .directory-page {
+.page {
 	background:var(--dark-grey);
 	padding:25px;
 }
 
 .directory-page {
+	background:var(--dark-grey);
+	padding:25px;
 	text-align: center;
 }
 
