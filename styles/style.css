@@ -827,3 +827,74 @@ nav li a {
 		display: none;
 	}
 }
+
+@import url("https://fonts.googleapis.com/css?family=Public+Sans:400,400i,700,700i");
+
+body {
+  font: 1em/150% "Public Sans",sans-serif;
+  background: #eaeaea;
+  color:#333333;
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background: #151515;
+  position: relative;
+  padding: 15px 0;
+  color: #fff;
+}
+
+header .filters {padding:10px 45px 0 45px;}
+header ul {padding:0;}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header li a {
+  color: #97c5e0;
+  border-bottom: 1px solid #454545;
+  margin: 0 5px;
+}
+
+header ul b {
+  margin: 0 5px;
+}
+
+.grid .item {
+  display: block;
+  padding: 30px;
+  background: #fff;
+  width: 23%;
+  box-sizing: border-box;
+  margin:1%;
+}
+
+.selected {
+  color: #fff;
+  border-bottom-color: #97c5e0;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+}
+
+.item a {
+  padding: 5px 15px;
+  background: #97c5e0;
+  border: 1px solid #97c5e0;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.item a:hover {
+  background: transparent;
+  color: #97c5e0;
+}
