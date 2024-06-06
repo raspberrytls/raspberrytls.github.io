@@ -164,6 +164,81 @@ figure img {
 	border-radius: 0;
 }
 
+#header-nav {
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	line-height: 1;
+	text-align: center;
+	background-color: var(--main);
+	font-size: 0.75em;
+}
+
+nav {
+	display: flex;
+	flex-direction:column;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: flex;
+}
+
+nav li {
+	line-height: 3em;
+	flex-grow: 1;
+	display: block;
+	transition: 0.5s;
+}
+
+nav li:hover {
+	flex-grow: 1.5;
+	transition: 0.5s;
+}
+
+nav li a:hover {
+	color: var(--light-grey);
+	transition: 0.2s;
+}
+
+nav li:hover .nav-sub li {
+	visibility: visible;
+	overflow: visible;
+	height: 2em;
+	line-height: 2em;
+	transition: 0.2s;
+}
+
+nav li a, .nav-expandable {
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	transition: 0.2s;
+}
+
+.nav-sub {
+	display: flex;
+	height: inherit;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.nav-sub li {
+	visibility: hidden;
+	overflow: hidden;
+	border-radius: 0;
+	border: 0;
+	height: 0;
+	width: 100%;
+}
+
+.nav-sub li a {
+	background: transparent;
+}
+
 /*Inner text area inside main div, below the header and image.*/
 .text {
 	background:var(--dark-grey);
