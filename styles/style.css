@@ -161,6 +161,7 @@ figure img {
 	width:100%;
 	padding:0px;
 	display:block; /*Prevents extra space after image*/
+	border-radius: 0;
 }
 
 /*Inner text area inside main div, below the header and image.*/
@@ -322,6 +323,15 @@ figure img {
 .directorylink .summarypreview img {
 	max-width: 200px;
 	border-radius: 5px;
+}
+
+.info-block .title {
+	text-align: left;
+}
+
+.info-block .subtitle {
+	text-align: left;
+	border-bottom: solid 2px var(--dark-teal);
 }
 
 .storyinformation {
