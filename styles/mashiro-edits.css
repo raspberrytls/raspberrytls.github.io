@@ -782,6 +782,7 @@ body {
 
 .info-item {
   border: 1px solid var(--dark-teal)!important;
+  background-color: var(--light-grey);
 }
 
 .info-area a {

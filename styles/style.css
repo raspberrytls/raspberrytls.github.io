@@ -326,7 +326,7 @@ figure img {
 }
 
 .cover-block {
-	margin: -1.56em -1.56em -1.56em 2em;
+	margin: -1.56em -1.56em 2em -1.56em;
 }
 
 .cover-block img {
@@ -337,13 +337,17 @@ figure img {
 }
 
 .title-block {
-	align-content: center;
+	text-align: center;
   position: relative;
-  margin-top: -1em;
+  border-bottom: 2px solid var(--dark-teal);
 }
 
 .title-block .title {
-	bottom: 0px;
+	bottom: 10px;
+}
+
+.title-block .subtitle {
+	bottom: -15px;
 }
 
 .title-block .title, .subtitle {
