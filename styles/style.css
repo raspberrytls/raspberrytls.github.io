@@ -325,15 +325,34 @@ figure img {
 	border-radius: 5px;
 }
 
-.cover-block .subtitle {
-	text-align: center;
-	border-bottom: solid 2px var(--dark-teal);
-	margin-top: -1.25em;
+.cover-block {
+	margin: -1.56em -1.56em -1.56em 2em;
 }
 
 .cover-block img {
-	mask-image: linear-gradient(to bottom,#000 70%,transparent 100%);
-	-webkit-mask-image: linear-gradient(to bottom,#000 70%,transparent 100%);
+	mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
+  width: 100%;
+  border-radius: 0px;
+}
+
+.title-block {
+	align-content: center;
+  position: relative;
+  margin-top: -1em;
+}
+
+.title-block .title {
+	bottom: 0px;
+}
+
+.title-block .title, .subtitle {
+	position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1.5px 1.5px var(--darkest-grey);
 }
 
 .storyinformation {
