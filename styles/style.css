@@ -538,10 +538,35 @@ figure img {
 .directory-container img {
 	width: 100%;
 	max-height: 100px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	border-radius: 15px;
 	object-fit: cover;
 	object-position: 50% 0;
+}
+
+.directory-image-container {
+	mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom,#000 60%,transparent 100%);
+}
+
+.directory-text-container {
+	position: relative;
+}
+
+.directory-text-container * {
+	position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1.5px 1.5px var(--darkest-grey);
+}
+
+.directory-text-container h3 {
+	bottom: 16px;
+}
+
+.directory-text-container p {
+	bottom: -4px;
 }
 
 .categories {
