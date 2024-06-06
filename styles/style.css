@@ -191,6 +191,8 @@ nav li {
 	flex-grow: 1;
 	display: block;
 	transition: 0.5s;
+	text-align: center;
+	font-family: MPLUSRounded1c, sans-serif;
 }
 
 nav li:hover {
@@ -199,43 +201,15 @@ nav li:hover {
 }
 
 nav li a:hover {
-	color: var(--light-grey);
+	color: var(--pink);
 	transition: 0.2s;
 }
 
-nav li:hover .nav-sub li {
-	visibility: visible;
-	overflow: visible;
-	height: 2em;
-	line-height: 2em;
-	transition: 0.2s;
-}
-
-nav li a, .nav-expandable {
+nav li a {
 	display: block;
 	text-transform: uppercase;
 	color: white;
 	transition: 0.2s;
-}
-
-.nav-sub {
-	display: flex;
-	height: inherit;
-	width: 100%;
-	justify-content: space-evenly;
-}
-
-.nav-sub li {
-	visibility: hidden;
-	overflow: hidden;
-	border-radius: 0;
-	border: 0;
-	height: 0;
-	width: 100%;
-}
-
-.nav-sub li a {
-	background: transparent;
 }
 
 /*Inner text area inside main div, below the header and image.*/
@@ -257,7 +231,6 @@ nav li a, .nav-expandable {
 	color:white;
 	background:var(--dark-teal);
 	padding-top:15px;
-	padding-bottom:18px;
 	text-align:center;
 	padding-right: 20px;
 	padding-left: 20px;
