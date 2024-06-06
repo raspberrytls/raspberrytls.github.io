@@ -116,7 +116,7 @@ b {
 blockquote{
   margin:20px auto;
   padding:0em 30px 0em 30px;
-  border-left:4px solid var(--dark-teal);
+  border-left:2px solid var(--dark-teal);
   position: relative;
   background:transparent;
   transition: 0.5s;
