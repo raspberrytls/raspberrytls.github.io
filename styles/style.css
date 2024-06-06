@@ -519,7 +519,7 @@ nav li a {
 }
 
 .scroll-column-container {
-	padding: 50px;
+	padding: 0em 4em 1em 4em;
 	background: var(--dark-grey);
 }
 
