@@ -668,8 +668,14 @@ nav li a {
 	justify-content: center;
 }
 
-.filters {padding:10px 45px 0 45px;}
-.filters ul {padding:0;}
+.filters {
+	padding:10px 45px 0 45px;
+	text-align: left;
+}
+
+.filters ul {
+	padding:0;
+}
 
 .filters li {
   list-style-type: none;
