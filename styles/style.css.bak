@@ -72,7 +72,7 @@ body {
 	line-height:2em;
 	font-family: MPLUSRounded1c, sans-serif;
 	background: var(--darkest-grey);
-	background-image: url("/media/background.png");
+	background-image: url("/media/site/background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -248,7 +248,7 @@ p {
 }
 
 .transparentimg {
-	background-image: url("/media/background.png");
+	background-image: url("/media/site/background.png");
 	border: solid 1px var(--dark-teal);
 	border-radius: 5px;
 }
@@ -259,7 +259,7 @@ p {
 
 .oissu__background.fullscreen {
   background: var(--darkest-grey);
-  background-image: url("/media/background.png");
+  background-image: url("/media/site/background.png");
 }
 
 .oissu img {
