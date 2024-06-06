@@ -668,6 +668,52 @@ nav li a {
 	justify-content: center;
 }
 
+.filters {padding:10px 45px 0 45px;}
+.filters ul {padding:0;}
+
+.filters li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.filters li a {
+  color: #97c5e0;
+  border-bottom: 1px solid #454545;
+  margin: 0 5px;
+}
+
+.filters ul b {
+  margin: 0 5px;
+}
+
+.grid .item {
+  display: block;
+  padding: 30px;
+  background: #fff;
+  width: 23%;
+  box-sizing: border-box;
+  margin:1%;
+}
+
+.selected {
+  color: #fff;
+  border-bottom-color: #97c5e0;
+  font-weight: bold;
+}
+
+.item a {
+  padding: 5px 15px;
+  background: #97c5e0;
+  border: 1px solid #97c5e0;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.item a:hover {
+  background: transparent;
+  color: #97c5e0;
+}
+
 .oshi-room-row {
 	display: flex;
 	text-align: center;
