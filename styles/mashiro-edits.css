@@ -774,6 +774,7 @@ body {
 	top:15px!important;
 	left:10px!important;
 	border: solid 1px var(--dark-teal);
+  box-shadow: 5px 3px var(--darkest-grey);
 }
 
 [character]::after {
@@ -808,4 +809,8 @@ body {
 .info-item.date {
   grid-column:4/5;
   grid-row:3/3;
+}
+
+.info-item .label {
+  font-size: 1em!important;
 }

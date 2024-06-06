@@ -137,6 +137,10 @@ p {
 	font-family: Karla, sans-serif;
 }
 
+figure {
+	box-shadow: 5px 3px var(--darkest-grey);
+}
+
 .main {
 	margin: 0 auto;
 	margin-top:30px;
