@@ -702,5 +702,6 @@ figure img {
 	
 	.filterDiv {
 	flex-grow: 1;
+	height: fit-content;
 }
 }
