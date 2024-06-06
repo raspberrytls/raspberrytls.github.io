@@ -559,6 +559,8 @@ nav li a {
 	flex: 0 0 20%;
 	transition: 0.3s;
 	min-width: 45%;
+	flex-grow: 1;
+	height: 100px;
 }
 
 .filterDiv h3 {
@@ -706,31 +708,39 @@ nav li a {
 }
 
 .grid .item {
-  display: block;
-  padding: 30px;
-  background: #fff;
-  width: 23%;
-  box-sizing: border-box;
-  margin:1%;
+	background-color: var(--grey);
+	text-align: center;
+	margin: 0.5em;
+	display: none;
+	padding: 0;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: var(--dark-teal);
+	border-width: 1.5px;
+	flex: 0 0 20%;
+	transition: 0.3s;
+	min-width: 45%;
+	flex-grow: 1;
+	height: 100px;
+}
+
+.grid .item h3 {
+	padding: 0 0.5em;
+}
+
+.grid .item * {
+	margin: 0;
+	color: white;
+}
+
+.grid .item:hover {
+	min-width: 48%;
 }
 
 .selected {
   color: #fff;
   border-bottom-color: #97c5e0;
   font-weight: bold;
-}
-
-.item a {
-  padding: 5px 15px;
-  background: #97c5e0;
-  border: 1px solid #97c5e0;
-  color: #fff;
-  transition: 0.4s ease;
-}
-
-.item a:hover {
-  background: transparent;
-  color: #97c5e0;
 }
 
 .oshi-room-row {
@@ -816,9 +826,4 @@ nav li a {
 	.directorylink .summarypreview {
 		display: none;
 	}
-	
-	.filterDiv {
-	flex-grow: 1;
-	height: 100px;
-}
 }
