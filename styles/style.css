@@ -191,6 +191,7 @@ nav li {
 	flex-grow: 1;
 	display: block;
 	transition: 0.5s;
+	text-align: center;
 }
 
 nav li:hover {
