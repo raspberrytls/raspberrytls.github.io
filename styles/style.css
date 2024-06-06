@@ -203,7 +203,7 @@ nav li a:hover {
 	transition: 0.2s;
 }
 
-nav li:hover {
+nav li:hover .nav-sub li {
 	visibility: visible;
 	overflow: visible;
 	height: 2em;
@@ -211,7 +211,7 @@ nav li:hover {
 	transition: 0.2s;
 }
 
-nav li a {
+nav li a, .nav-expandable {
 	display: block;
 	text-transform: uppercase;
 	color: white;
