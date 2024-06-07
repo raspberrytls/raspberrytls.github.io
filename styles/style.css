@@ -692,6 +692,7 @@ nav li a {
 
 .filters li a:hover {
   color: var(--light-pink);
+  border-bottom: 1px solid var(--light-pink);
 }
 
 .filters li a[character] {
@@ -709,6 +710,15 @@ nav li a {
 .filters ul b {
   margin: 0 5px;
 }
+
+			.grid .item {
+			  display: block;
+			  padding: 30px;
+			  background: #fff;
+			  width: 23%;
+			  box-sizing: border-box;
+			  margin:1%;
+			}
 
 .selected {
   color: var(--pink)!important;
