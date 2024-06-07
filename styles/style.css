@@ -546,7 +546,7 @@ nav li a {
 	color: var(--light-pink);
 }
 
-.filterDiv {
+.item {
 	background-color: var(--grey);
 	text-align: center;
 	margin: 0.5em;
@@ -563,16 +563,16 @@ nav li a {
 	height: 100px;
 }
 
-.filterDiv h3 {
+.item h3 {
 	padding: 0 0.5em;
 }
 
-.filterDiv * {
+.item * {
 	margin: 0;
 	color: white;
 }
 
-.filterDiv:hover {
+.item:hover {
 	min-width: 48%;
 }
 
@@ -711,14 +711,9 @@ nav li a {
   margin: 0 5px;
 }
 
-			.grid .item {
-			  display: block;
-			  padding: 30px;
-			  background: #fff;
-			  width: 23%;
-			  box-sizing: border-box;
-			  margin:1%;
-			}
+.item {
+	display: block;
+}
 
 .selected {
   color: var(--pink)!important;
