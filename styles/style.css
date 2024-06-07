@@ -443,6 +443,7 @@ nav li a {
 
 .storysectiontitle {
 	border-bottom: solid 2px var(--dark-teal);
+	margin-bottom: 1em;
 }
 
 .storysectiontitle:not(b) {
