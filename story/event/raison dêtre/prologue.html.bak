@@ -28,9 +28,7 @@
 
 	  <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
 	  <link href="/styles/unit-colors.css" rel="stylesheet" type="text/css" media="all">
-	  <link href="/styles/mashiro-edits.css" rel="stylesheet" type="text/css" media="all">
-	  <link href="/styles/mashiro-expressions.css" rel="stylesheet" type="text/css" media="all">
-
+	  
 	  <script src="https://kit.fontawesome.com/b39ce6eb8c.js" crossorigin="anonymous"></script>
 
 	  <!--https://yuukun.dev/oissu/docs-->
