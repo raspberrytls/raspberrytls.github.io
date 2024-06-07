@@ -623,53 +623,6 @@ nav li a {
 	bottom: 30px;
 }
 
-.categories {
-	text-align: center;
-}
-
-.category{
-	margin: 0.25em;
-	background-color: var(--dark-pink);
-	border-radius: 5px;
-	overflow: hidden;
-	transition: 0.3s;
-}
-
-.category:hover {
-	background-color: var(--dark-teal);
-}
-
-.category * {
-	transition: 0.2s;
-}
-
-.category label {
-	float: left;
-	line-height: 2.5em;
-	width: 8em;
-	height: 2.5em;
-}
-
-.category label span {
-	text-align: center;
-	display: block;
-}
-
-.category input {
-	position: absolute;
-	display: none;
-}
-
-.category input:checked + label {
-	background-color: var(--dark-teal);
-}
-
-.category-type {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
 .filters {
 	padding:10px 45px 0 45px;
 	text-align: left;
