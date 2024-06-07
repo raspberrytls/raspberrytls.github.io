@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+		<script src="https://static.tumblr.com/p0knose/FpAp5c11c/magnusthemes.combofilters.js"></script>
+	</head>
+	<body>
+
+		<script>
+$(document).ready(function() {
+ var $container = $(".grid"); // the container with all the elements to filter inside
+ var filters = {}; //should be outside the scope of the filtering function
+ /* --- read the documentation on isotope.metafizzy.co for more options --- */
+ var $grid = $container.isotope({
+   itemSelector: ".item", // the elements to filter
+   percentPosition: true // put true if you use percentage widths, otherwise put false
+ });
+ $(".option-set a").click(function(e) {
+   var $this = $(this); // cache the clicked link
+   var filterAttr = "data-filter-value";
+   var filterValue = $this.attr(filterAttr); // cache the filter
+   var $optionSet = $this.parents(".option-set"); // cache the parent element
+   var group = $optionSet.attr("data-filter-group"); // cache the parent filter group
+   var filterGroup = filters[group];
+   if (!filterGroup) {
+     filterGroup = filters[group] = [];
+   }
+   var $selectAll = $optionSet.find('a['+filterAttr+'=""]'); // the 'select all' button in the current group
+   var activeClass = "selected", // the class for active links
+     exclClass = "exclusive"; // the class for exclusive groups
+ comboFiltering($this,filters,filterAttr,filterValue,$optionSet,group,$selectAll,activeClass,exclClass);
+   var comboFilter = getComboFilter(filters);
+   $grid.isotope({
+     filter: comboFilter
+   });
+   $this.toggleClass(activeClass);
+   e.preventDefault();
+ });
+});
+</script>
+
+
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Public+Sans:400,400i,700,700i");
+
+			body {
+			  font: 1em/150% "Public Sans",sans-serif;
+			  background: #eaeaea;
+			  color:#333333;
+			  word-wrap: break-word;
+			}
+
+			a {
+			  text-decoration: none;
+			}
+
+			header {
+			  width: 100%;
+			  background: #151515;
+			  position: relative;
+			  padding: 15px 0;
+			  color: #fff;
+			}
+
+			header .filters {padding:10px 45px 0 45px;}
+			header ul {padding:0;}
+
+			header li {
+			  list-style-type: none;
+			  display: inline-block;
+			}
+
+			header li a {
+			  color: #97c5e0;
+			  border-bottom: 1px solid #454545;
+			  margin: 0 5px;
+			}
+
+			header ul b {
+			  margin: 0 5px;
+			}
+
+			.grid .item {
+			  display: block;
+			  padding: 30px;
+			  background: #fff;
+			  width: 23%;
+			  box-sizing: border-box;
+			  margin:1%;
+			}
+
+			.selected {
+			  color: #fff;
+			  border-bottom-color: #97c5e0;
+			  font-weight: bold;
+			}
+
+			h2 {
+			  margin: 0;
+			}
+
+			.item a {
+			  padding: 5px 15px;
+			  background: #97c5e0;
+			  border: 1px solid #97c5e0;
+			  color: #fff;
+			  transition: 0.4s ease;
+			}
+
+			.item a:hover {
+			  background: transparent;
+			  color: #97c5e0;
+			}
+		</style>
+
+		<header>
+		  <div class="filters">
+
+		    <li class="option-set"><a href="#" data-filter-value="" class="reset selected">All</a></li>
+		    <li class="option-set"><a href="#" data-filter-value=".fave">Favourites</a></li>
+
+		    <ul class="filter option-set exclusive" data-filter-group="status">
+		      <li><b>Status</b></li>
+		      <li><a href="#" data-filter-value="" class="selected">All</a></li>
+		      <li><a href="#" data-filter-value=".complete">Completed</a></li>
+		      <li><a href="#" data-filter-value=".incomplete">Incomplete</a></li>
+		    </ul>
+
+		    <ul class="filter option-set" data-filter-group="fandom">
+		      <li><b>Fandom</b></li>
+		      <li><a href="#" data-filter-value="" class="selected">Any</a></li>
+		      <li><a href="#" data-filter-value=".yoi">Yuri on Ice</a></li>
+		      <li><a href="#" data-filter-value=".az">Aldnoah.Zero</a></li>
+		      <li><a href="#" data-filter-value=".pp">Psycho Pass</a></li>
+		    </ul>
+
+		    <ul class="filter option-set combine" data-filter-group="content">
+		      <li><b>Contents</b></li>
+		      <li><a href="#" data-filter-value="" class="selected">All</a></li>
+		      <li><a href="#" data-filter-value=".fluff">Fluff</a></li>
+		      <li><a href="#" data-filter-value=".angst">Angst</a></li>
+		      <li><a href="#" data-filter-value=".banter">Banter</a></li>
+		      <li><a href="#" data-filter-value=".humour">Humour</a></li>
+		    </ul>
+
+		  </div>
+
+		  <div class="log"></div>
+
+		</header>
+
+		<div class="wrapper">
+		<div class="grid">
+
+		  <div class="item yoi complete">
+		    <h2>Unwritten</h2>
+		    Yuri on Ice | by <i>kaizuka</i>
+		    <p><b>Word count: </b> 34,279</p>
+		    <p><b>Summary:</b> Soulmates AU where whatever you write on your own skin appears on your soulmate, but when there is a language barrier, meeting becomes just a little more difficult than it should be.</p>
+		    <a href="https://archiveofourown.org/works/8293714">AO3</a>
+		  </div>
+
+		  <div class="item yoi humour complete">
+		    <h2>Russian for Dummies</h2>
+		    Yuri on Ice | by <i>cutthroatpixie</i>
+		    <p><b>Word count: </b> 2,489</p>
+		    <p><b>Summary:</b> "Are you a beginner?" <br>
+		        Viktor was not a beginner. Viktor was the TA supposedly in charge of this study session. Viktor spoke Russian. Viktor was Russian.
+		        <br>"Sure!"</p>
+		    <a href="https://archiveofourown.org/works/9124120">AO3</a>
+		  </div>
+
+		  <div class="item yoi fluff angst banter humour fave complete">
+		    <h2>centripetal force</h2>
+		    Yuri on Ice | by <i>braveten</i>
+		    <p><b>Word count: </b> 85,800</p>
+		    <p><b>Summary:</b> Victor speaks seven languages.
+		      <br> (Physics isn't one of them.)
+		      <br> Luckily, though, he ends up rooming with his antithesis: a shy, black-haired boy who just so happens to be a physics major.</p>
+		    <a href="https://archiveofourown.org/works/9534413">AO3</a>
+		  </div>
+
+		  <div class="item az angst incomplete">
+		    <h2>In Carcere</h2>
+		    Aldnoah.Zero | by <i>Slaine</i>
+		    <p><b>Word count: </b> 221,699</p>
+		    <p><b>Summary:</b> Post season finale.<br> Initially Inaho visits out of duty and humanity. And then he finds he can't stop going back to see Slaine Troyard.</p>
+		    <a href="https://archiveofourown.org/works/3636141">AO3</a>
+		  </div>
+
+		  <div class="item pp angst banter complete fave">
+		    <h2>quantum indeterminacy</h2>
+		    Psycho-Pass | by <i>Kairosity</i>
+		    <p><b>Word count: </b> 7,316</p>
+		    <p><b>Summary:</b> The question is just who's saving whom, here.</p>
+		    <a href="https://archiveofourown.org/works/739498">AO3</a>
+		  </div>
+
+		  <div class="item yoi angst complete fave">
+		    <h2>we have loved the stars too fondly</h2>
+		    Yuri on Ice | by <i>thehandsingsweapon</i>
+		    <p><b>Word count: </b> 10,478</p>
+		    <p><b>Summary:</b> “We live in a blue planet that circles around a ball of fire next to a moon that moves the sea, and you don’t believe in miracles?”
+		        <br>
+		        After an academic career at MIT and Oxford, Yuuri Katsuki eschews job offers at places like NASA and CERN to go work at the Very Large Array in what Phichit Chulanont lovingly calls The Actual Middle of Nowhere, New Mexico, monitoring radio frequencies from light-years away. He's loved the stars for as long as he can remember, and the universe feels so big sometimes that Yuuri is sure it would be a cruel mistake for humans to be all alone.
+		        <br>
+		        Enter the latest scientist to join the staff of the VLA, enigmatic Russian genius Victor Nikiforov, around whom Yuuri’s entire universe seems to bend to make room, and the strange, recurring dreams Yuuri keeps having, where something like love carries him across the stars.
+		        <br>
+		        Does love travel faster than light? Do souls?
+		        <br>
+		        “The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.”</p>
+		    <a href="https://archiveofourown.org/works/11957046">AO3</a>
+		  </div>
+
+		  <div class="item yoi fluff banter angst humour complete fave">
+		    <h2>all the world's a stage</h2>
+		    Yuri on Ice | by <i>braveten</i>
+		    <p><b>Word count: </b> 112,291</p>
+		    <p><b>Summary:</b> Everyone has a guilty pleasure. <br>
+		    For Yuuri, it just happens to be romance movies starring famous heartthrob Victor Nikiforov.<br>
+		    (And, honestly, on the spectrum of guilty pleasures, he figures that his is on the far, far more innocent side.)</p>
+		    <a href="https://archiveofourown.org/works/9135670">AO3</a>
+		  </div>
+
+		  <div class="item yoi banter fave humour complete">
+		    <h2>185/120</h2>
+		    Yuri on Ice | by <i>RC_McLachlan</i>
+		    <p><b>Word count: </b> 1,109</p>
+		    <p><b>Summary:</b> Yakov isn't paid enough for this shit.</p>
+		    <a href="https://archiveofourown.org/works/9238709">AO3</a>
+		  </div>
+
+		  <div class="item yoi fluff complete">
+		    <h2>a great desire to love</h2>
+		    Yuri on Ice | by <i>stillmadaboutpetra</i>
+		    <p><b>Word count: </b> 6,336</p>
+		    <p><b>Summary:</b> Yuuri fails to mention to his new non-skater friends who he is or who his husband is. Or that he even has a husband.</p>
+		    <a href="https://archiveofourown.org/works/9565196/">AO3</a>
+		  </div>
+
+		  <div class="item yoi banter angst fluff humour complete">
+		    <h2>Twenty-Five Hours</h2>
+		    Yuri on Ice | by <i>olizzybenneto</i>
+		    <p><b>Word count: </b> 22,861</p>
+		    <p><b>Summary:</b> In which Yuuri spends a 25 hour flight next to Victor Nikiforov, skating legend, and feels it might simultaneously be the best and worst thing that has ever happened to him.</p>
+		    <a href="https://archiveofourown.org/works/9677486">AO3</a>
+		  </div>
+
+		</div>
+		</div>
+
+	</body>
+</html>
