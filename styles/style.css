@@ -148,6 +148,7 @@ figure img {
 	border:4px solid var(--dark-teal);
 	width:600px;
 	border-radius:3px;
+	box-shadow: 15px 10px var(--darkest-grey);
 }
   
 /*Box to contain header image*/
@@ -304,6 +305,7 @@ nav li a {
 	background-image: url("/media/site/background.png");
 	border: solid 1px var(--dark-teal);
 	border-radius: 5px;
+	box-shadow: 6px 5px var(--darkest-grey);
 }
 
 .subtitle {
@@ -321,6 +323,10 @@ nav li a {
 
 .oissu img:hover {
 	opacity: 75%;
+}
+
+.oissu__embed .oissu .os-unit .os-content.os-rich {
+	box-shadow: 5px 4px var(--darkest-grey);
 }
 
 .page {
