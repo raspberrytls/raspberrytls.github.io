@@ -569,10 +569,11 @@ nav li a {
 .item * {
 	margin: 0;
 	color: white;
+	transition: 0.3s;
 }
 
-.item:hover {
-	min-width: 48%;
+.item:hover img {
+	object-position: 50% 50%;
 }
 
 .show {
@@ -751,5 +752,11 @@ nav li a {
 	
 	.directorylink .summarypreview {
 		display: none;
+	}
+
+	.item {
+		width: -moz-available;
+		width: -webkit-fill-available;
+		width: 96%;
 	}
 }
