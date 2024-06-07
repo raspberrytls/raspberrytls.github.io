@@ -546,7 +546,7 @@ nav li a {
 	color: var(--light-pink);
 }
 
-.item-flex-container {
+.item {
 	background-color: var(--grey);
 	text-align: center;
 	margin: 0.5em;
@@ -562,16 +562,16 @@ nav li a {
 	height: 100px;
 }
 
-.item-flex-container h3 {
+.item h3 {
 	padding: 0 0.5em;
 }
 
-.item-flex-container * {
+.item * {
 	margin: 0;
 	color: white;
 }
 
-.item-flex-container:hover {
+.item:hover {
 	min-width: 48%;
 }
 
