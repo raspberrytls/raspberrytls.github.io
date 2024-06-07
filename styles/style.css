@@ -685,8 +685,8 @@ nav li a {
 }
 
 .filters li a {
-  color: #97c5e0;
-  border-bottom: 1px solid #454545;
+  color: var(--teal);
+  border-bottom: 1px solid var(--light-grey);
   margin: 0 5px;
 }
 
@@ -695,7 +695,6 @@ nav li a {
   background:var(--charahead) 0 0/cover;
   height:40px;
   width:40px;
-  margin:0 -3px;
 }
 
 .filters li a[character]::after,
@@ -708,8 +707,8 @@ nav li a {
 }
 
 .selected {
-  color: #fff;
-  border-bottom-color: #97c5e0;
+  color: var(--pink)!important;
+  border-bottom-color: var(--pink)!important;
   font-weight: bold;
 }
 
