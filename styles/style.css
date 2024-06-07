@@ -546,7 +546,7 @@ nav li a {
 	color: var(--light-pink);
 }
 
-.item {
+.item-flex-container {
 	background-color: var(--grey);
 	text-align: center;
 	margin: 0.5em;
@@ -562,16 +562,16 @@ nav li a {
 	height: 100px;
 }
 
-.item h3 {
+.item-flex-container h3 {
 	padding: 0 0.5em;
 }
 
-.item * {
+.item-flex-container * {
 	margin: 0;
 	color: white;
 }
 
-.item:hover {
+.item-flex-container:hover {
 	min-width: 48%;
 }
 
@@ -661,10 +661,6 @@ nav li a {
 
 .filters ul b {
   margin: 0 5px;
-}
-
-.item {
-	display: block;
 }
 
 .selected {
