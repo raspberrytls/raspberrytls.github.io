@@ -580,7 +580,7 @@ nav li a {
 	display: block;
 }
 
-.directory-container {
+.directory-flex-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -589,7 +589,7 @@ nav li a {
 	overflow: hidden;
 }
 
-.directory-container img {
+.directory-image-container img {
 	width: 100%;
 	max-height: 100px;
 	border-radius: 15px;
@@ -624,7 +624,7 @@ nav li a {
 }
 
 .filters {
-	padding:10px 45px 0 45px;
+	padding: 5px 5px 0px 5px;
 	text-align: left;
 }
 
@@ -662,10 +662,6 @@ nav li a {
 
 .filters ul b {
   margin: 0 5px;
-}
-
-.item {
-	display: block;
 }
 
 .selected {
