@@ -555,11 +555,10 @@ nav li a {
 	border-style: solid;
 	border-color: var(--dark-teal);
 	border-width: 1.5px;
-	flex: 0 0 20%;
 	transition: 0.3s;
 	min-width: 45%;
-	flex-grow: 1;
 	height: 100px;
+	box-shadow: 6px 5px var(--darkest-grey);
 }
 
 .item h3 {
