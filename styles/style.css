@@ -329,6 +329,23 @@ nav li a {
 	box-shadow: 5px 4px var(--darkest-grey);
 }
 
+body.oissu-bubble .oissu__embed .oissu .os-unit .os-content.os-lines p {
+	box-shadow: 2.5px 2px var(--darkest-grey);
+}
+
+body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
+	box-shadow: 1.5px 1.25px var(--darkest-grey);
+}
+
+.oissu__embed .oissu .os-unit .os-content.os-lines p:last-child {
+	border-bottom-left-radius: 30px;
+}
+
+.oissu__embed .oissu .os-unit .os-content.os-lines p {
+	border-top-right-radius: 30px;
+  border-bottom-right-radius: 10px;
+}
+
 .page {
 	background:var(--dark-grey);
 	padding:25px;
