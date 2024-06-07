@@ -769,4 +769,8 @@ nav li a {
 		width: -webkit-fill-available;
 		width: 96%;
 	}
+
+	.scroll-column-container {
+		padding: 0em 2em 1em 2em;
+	}
 }
