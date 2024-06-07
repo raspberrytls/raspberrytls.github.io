@@ -670,6 +670,11 @@ nav li a {
   font-weight: bold;
 }
 
+.filter[data-filter-group="characters"] {
+	overflow-y: scroll;
+	max-height: 100px;
+}
+
 .oshi-room-row {
 	display: flex;
 	text-align: center;
