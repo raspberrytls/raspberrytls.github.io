@@ -550,7 +550,6 @@ nav li a {
 	background-color: var(--grey);
 	text-align: center;
 	margin: 0.5em;
-	display: none;
 	padding: 0;
 	border-radius: 15px;
 	border-style: solid;
