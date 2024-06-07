@@ -338,12 +338,12 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 }
 
 .oissu__embed .oissu .os-unit .os-content.os-lines p:last-child {
-	border-bottom-left-radius: 30px;
+	border-bottom-left-radius: 30px!important;
 }
 
 .oissu__embed .oissu .os-unit .os-content.os-lines p {
-	border-top-right-radius: 30px;
-  border-bottom-right-radius: 10px;
+	border-top-right-radius: 30px!important;
+  border-bottom-right-radius: 10px!important;
 }
 
 .page {
