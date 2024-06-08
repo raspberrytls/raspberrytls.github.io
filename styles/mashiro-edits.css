@@ -818,7 +818,7 @@ a.msr-fn-inline {
   font-size: 0.75em!important;
   border: solid 1px var(--dark-teal)!important;
   padding: 1px 6px!important;
-  background: var(--grey)!important;
+  background: none!important;
   user-select: none;
 }
 
