@@ -293,6 +293,7 @@ nav li a {
 
 .footer-container {
 	background: var(--dark-grey);
+	margin-top: -1.3em;
 }
   
 .imgborder {
@@ -310,7 +311,7 @@ nav li a {
 	border: solid 1px var(--dark-teal);
 	border-radius: 5px;
 	box-shadow: 6px 5px var(--darkest-grey);
-	style: max-width: 100px;
+	max-width: 100px;
 }
 
 .subtitle {
