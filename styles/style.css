@@ -294,6 +294,7 @@ nav li a {
 .footer-container {
 	background: var(--dark-grey);
 	margin-top: -1.3em;
+	text-align:center;
 }
   
 .imgborder {
@@ -323,12 +324,8 @@ nav li a {
   background-image: url("/media/site/background.png");
 }
 
-.oissu img {
-	transition: 0.5s;
-}
-
 .oissu img:hover {
-	opacity: 75%;
+	transform: scale(1.03);
 }
 
 .oissu__embed .oissu .os-unit .os-content.os-rich {
@@ -605,11 +602,10 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 .item * {
 	margin: 0;
 	color: white;
-	transition: 0.3s;
 }
 
-.item:hover img {
-	object-position: 50% 50%;
+.item:hover {
+	transform: scale(1.03);
 }
 
 .show {
