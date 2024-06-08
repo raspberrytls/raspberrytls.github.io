@@ -585,7 +585,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 }
 
 .item {
-	background-color: var(--grey);
+	background-color: var(--dark-grey);
 	text-align: center;
 	margin: 0.5em;
 	padding: 0;
@@ -608,8 +608,25 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	color: white;
 }
 
+.item img {
+	transition: 0.15s;
+}
+
 .item:hover {
 	transform: scale(1.03);
+}
+
+.item:hover img {
+	object-position: 50% 15%;
+}
+
+.item:hover .directory-image-container {
+	mask-image: linear-gradient(to bottom,#000 100%,transparent 100%);
+	-webkit-mask-image: linear-gradient(to bottom,#000 100%,transparent 100%);
+}
+
+.item:hover .directory-text-container {
+	visibility: hidden;
 }
 
 .show {
@@ -623,6 +640,8 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	align-content: center;
 	margin-top: 20px;
 	overflow: hidden;
+	border-bottom: 2px solid var(--dark-teal);
+  padding-bottom: 1em;
 }
 
 .directory-container img {
