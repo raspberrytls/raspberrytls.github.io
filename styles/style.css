@@ -730,6 +730,20 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	max-height: 100px;
 }
 
+.wip-container {
+	text-align: left;
+}
+
+.wip-container h3 {
+	margin-bottom: 0;
+}
+
+.wip-container p {
+	margin-top: 0;
+	border-bottom: 1px solid var(--dark-teal);
+	font-style: italic;
+}
+
 .wip-container a {
 	border-bottom: 1px solid var(--light-grey);
 }
@@ -737,6 +751,15 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 .wip-container a:hover {
 	border-bottom: 1px solid var(--light-pink);
 	color: var(--light-pink);
+}
+
+.wip-container tr:nth-child(odd) {
+	background-color: var(--grey);
+}
+
+.wip-container td {
+	width: 50%;
+	padding: 0.5em 1em;
 }
 
 .wip-table-title {
