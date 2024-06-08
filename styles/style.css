@@ -584,7 +584,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	color: var(--light-pink);
 }
 
-.item, .wip-item {
+.item {
 	background-color: var(--dark-grey);
 	text-align: center;
 	margin: 0.5em;
@@ -599,33 +599,33 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	box-shadow: 6px 5px var(--darkest-grey);
 }
 
-.item h3, .wip-item h3 {
+.item h3 {
 	padding: 0 0.5em;
 }
 
-.item *, .wip-item * {
+.item * {
 	margin: 0;
 	color: white;
 }
 
-.item img, .wip-item img {
+.item img {
 	transition: 0.15s;
 }
 
-.item:hover, .wip-item:hover {
+.item:hover {
 	transform: scale(1.03);
 }
 
-.item:hover img, .wip-item:hover img {
+.item:hover img {
 	object-position: 50% 15%;
 }
 
-.item:hover .directory-image-container, .wip-item:hover .directory-image-container {
+.item:hover .directory-image-container {
 	mask-image: linear-gradient(to bottom,#000 100%,transparent 100%);
 	-webkit-mask-image: linear-gradient(to bottom,#000 100%,transparent 100%);
 }
 
-.item:hover .directory-text-container, .wip-item:hover .directory-text-container {
+.item:hover .directory-text-container {
 	visibility: hidden;
 }
 
@@ -633,7 +633,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	display: block;
 }
 
-.directory-container, .wip-container {
+.directory-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -644,7 +644,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
   padding-bottom: 1em;
 }
 
-.directory-container img, .wip-container img {
+.directory-container img {
 	width: 100%;
 	max-height: 100px;
 	border-radius: 15px;
@@ -814,7 +814,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 		display: none;
 	}
 
-	.item, .wip-item {
+	.item {
 		width: -moz-available;
 		width: -webkit-fill-available;
 		width: 96%;
