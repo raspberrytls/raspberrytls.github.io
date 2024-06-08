@@ -811,3 +811,17 @@ body {
 .info-item .label {
   font-size: 1em!important;
 }
+
+a.msr-fn-inline {
+  display: inline!important;
+  margin: 0px 0px 0px 6px!important;
+  font-size: 0.75em!important;
+  border: solid 1px var(--dark-teal)!important;
+  padding: 1px 6px!important;
+  background: var(--grey)!important;
+  user-select: none;
+}
+
+.msr-fn > ol > li a.arrow {
+  margin-right: 0.25em;
+}
