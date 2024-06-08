@@ -290,6 +290,10 @@ nav li a {
 .footer a:hover {
 	color: var(--pink);
 }
+
+.footer-container {
+	background: var(--dark-grey);
+}
   
 .imgborder {
 	border: solid 2px var(--dark-teal);
@@ -301,11 +305,12 @@ nav li a {
 	opacity: 75%;
 }
 
-.transparentimg {
+.footer-img {
 	background-image: url("/media/site/background.png");
 	border: solid 1px var(--dark-teal);
 	border-radius: 5px;
 	box-shadow: 6px 5px var(--darkest-grey);
+	style: max-width: 100px;
 }
 
 .subtitle {
@@ -351,10 +356,17 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	padding:25px;
 }
 
-.directory-page {
+.directory-page, .text-directory-page {
 	background:var(--dark-grey);
 	padding:25px;
+}
+
+.directory-page {
 	text-align: center;
+}
+
+.text-directory-page {
+	text-align: left;
 }
 
 .directoryheader {
