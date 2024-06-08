@@ -319,7 +319,7 @@ nav li a {
 	max-width: 100px;
 }
 
-.subtitle {
+.song-subtitle {
 	color: var(--light-pink);
 }
 
@@ -593,7 +593,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	border-style: solid;
 	border-color: var(--dark-teal);
 	border-width: 1.5px;
-	transition: 0.3s;
+	transition: 0.15s;
 	min-width: 45%;
 	height: 100px;
 	box-shadow: 6px 5px var(--darkest-grey);
