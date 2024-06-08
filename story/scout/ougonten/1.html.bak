@@ -221,7 +221,13 @@
 	    </div>
 	</div>
 	    
-      <div class=footer>2024 raspberryjams</div>
+      <!-- Common Footer -->
+      <div class="footer-container">
+      	<a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+      	<h2>︶꒦꒷♡꒷꒦︶</h2>
+				<img class="footer-img" src="https://i.imgur.com/Xdr4F5Q.gif"></img>
+      	<div class=footer>raspberryjams. 2024</div>
+      </div>
     </div>
   </body>
 </html>
