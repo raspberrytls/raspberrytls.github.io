@@ -730,6 +730,23 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	max-height: 100px;
 }
 
+.wip-container a {
+	border-bottom: 1px solid var(--light-grey);
+}
+
+.wip-container a:hover {
+	border-bottom: 1px solid var(--light-pink);
+	color: var(--light-pink);
+}
+
+.wip-table-title {
+	font-weight: bold;
+}
+
+.wip-table-info {
+	font-style: italic;
+}
+
 .oshi-room-row {
 	display: flex;
 	text-align: center;
