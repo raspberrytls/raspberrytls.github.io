@@ -280,6 +280,7 @@ nav li a {
 	padding-top:4px;
 	padding-bottom:1px;
 	text-align:center;
+	margin-top: 2em;
 }
   
 .footer a {
@@ -293,8 +294,11 @@ nav li a {
 
 .footer-container {
 	background: var(--dark-grey);
-	margin-top: -1.3em;
 	text-align:center;
+}
+
+.footer-container h2 {
+	margin: 0.25em 0em 0.5em 0em;
 }
   
 .imgborder {
