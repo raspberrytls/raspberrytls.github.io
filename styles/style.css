@@ -137,8 +137,12 @@ p {
 	font-family: Karla, sans-serif;
 }
 
+figure {
+	margin: 2em 0em;
+}
+
 figure img {
-	box-shadow: 5px 3px var(--darkest-grey);
+	box-shadow: 4px 3px var(--darkest-grey);
 }
 
 .main {
@@ -333,7 +337,7 @@ nav li a {
 }
 
 .oissu__embed .oissu .os-unit .os-content.os-rich {
-	box-shadow: 5px 4px var(--darkest-grey);
+	box-shadow: 4px 3px var(--darkest-grey);
 }
 
 body.oissu-bubble .oissu__embed .oissu .os-unit .os-content.os-lines p {
@@ -863,5 +867,9 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 
 	.scroll-column-container {
 		padding: 0em 2em 1em 2em;
+	}
+
+	.main {
+		box-shadow: none;
 	}
 }
