@@ -799,18 +799,21 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	overflow: hidden;
 	overflow-y: scroll;
 	max-height: 500px;
+	margin: 1.5em 0em;
 }
 
 .assorted-item .title {
-	margin: 0;
+	margin: 0em 1em;
 	color: var(--pink);
 }
 
 .assorted-item .subtitle {
-	margin-top: -0.25em;
+	margin: 0.5em 1em;
+	padding-bottom: 0.5em;
 	font-style: italic;
 	border-bottom: 2px solid var(--dark-teal);
 	color: var(--light-pink);
+	line-height: 1.5em;
 }
 
 .assorted-item .content {
@@ -821,6 +824,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 .assorted-item img, .assorted-item video {
 	width: 100%;
 	box-shadow: 4px 3px var(--dark-grey);
+	margin: 1em 0em;
 }
 
 #scroll-container {

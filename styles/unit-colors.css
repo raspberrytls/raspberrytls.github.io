@@ -18,6 +18,8 @@
 	--hinata: #EB6EA0;
 	--yuuta: #00A1E9;
 
+	--kohaku: #F4B3C2;
+
 	--rei: #47266E;
 	--kaoru: #FDD35C;
 	--koga: #C9CACA;
@@ -122,6 +124,10 @@
 	background: linear-gradient(to right, var(--hinata), var(--yuuta)); 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.kohaku {
+	color: var(--kohaku);
 }
 
 .undead {
