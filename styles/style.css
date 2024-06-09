@@ -445,7 +445,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	color: var(--light-pink);
 }
 
-.title-block .title, .subtitle {
+.title-block .title, .title-block .subtitle {
 	position: absolute;
   left: 0;
   right: 0;
@@ -787,18 +787,40 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	margin: 0.5em;
 }
 
+.center {
+	text-align: center;
+}
+
+.assorted-item {
+	background-color: var(--grey);
+	border-radius: 15px;
+	padding: 1em;
+	box-shadow: 5px 4px var(--darkest-grey);
+	overflow: hidden;
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
 .assorted-item .title {
-	border-bottom: 1px solid var(--dark-teal);
+	margin: 0;
+	color: var(--pink);
 }
 
 .assorted-item .subtitle {
+	margin-top: -0.25em;
 	font-style: italic;
+	border-bottom: 2px solid var(--dark-teal);
+	color: var(--light-pink);
 }
 
 .assorted-item .content {
+	border-left: 1px solid var(--dark-teal);
+	padding: 0em 1em;
 }
 
-.assorted-item img {
+.assorted-item img, .assorted-item video {
+	width: 100%;
+	box-shadow: 4px 3px var(--dark-grey);
 }
 
 #scroll-container {
