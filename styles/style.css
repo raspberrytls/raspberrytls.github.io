@@ -825,6 +825,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	width: 100%;
 	box-shadow: 4px 3px var(--dark-grey);
 	margin: 1em 0em;
+	border-radius: 5px;
 }
 
 #scroll-container {
