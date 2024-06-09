@@ -787,6 +787,20 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	margin: 0.5em;
 }
 
+.assorted-item .title {
+	border-bottom: 1px solid var(--dark-teal);
+}
+
+.assorted-item .subtitle {
+	font-style: italic;
+}
+
+.assorted-item .content {
+}
+
+.assorted-item img {
+}
+
 #scroll-container {
 	margin-right: 20px;
 	margin-left: 20px;
