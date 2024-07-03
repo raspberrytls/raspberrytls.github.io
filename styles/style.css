@@ -176,14 +176,11 @@ figure img {
 	text-align: center;
 	background-color: var(--main);
 	font-size: 0.75em;
-}
-
-nav {
 	display: flex;
 	flex-direction:column;
 }
 
-nav ul {
+#header-nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -191,7 +188,7 @@ nav ul {
 	display: flex;
 }
 
-nav li {
+#header-nav li {
 	line-height: 3em;
 	flex-grow: 1;
 	display: block;
@@ -200,17 +197,17 @@ nav li {
 	font-family: MPLUSRounded1c, sans-serif;
 }
 
-nav li:hover {
+#header-nav li:hover {
 	flex-grow: 1.5;
 	transition: 0.5s;
 }
 
-nav li a:hover {
+#header-nav li a:hover {
 	color: var(--pink);
 	transition: 0.2s;
 }
 
-nav li a {
+#header-nav li a {
 	display: block;
 	text-transform: uppercase;
 	color: white;
