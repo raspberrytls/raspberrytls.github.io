@@ -44,6 +44,10 @@ body {
   text-align: center;
 }
 
+.value {
+  font-family: Karla;
+}
+
 .cg-gallery>.tab-content>.gallery {
     grid-template-columns: repeat(2, minmax(200px, 2fr));
 }
@@ -828,4 +832,35 @@ a.msr-fn-inline {
 
 .msr-fn > ol > li a.arrow {
   margin-right: 0.25em;
+}
+
+.extra-area {
+  border: 1px solid var(--dark-teal);
+  border-radius: 5px;
+}
+
+.tab-header {
+  border-bottom: 1px solid var(--dark-teal);
+  border-radius: 5px 5px 0 0;
+  background: var(--grey);
+}
+
+.tab-header__name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tab-content {
+  font-family: Karla;
+}
+
+.extra-area .label {
+  line-height: 0;
+  margin: 1em 1em 1.5em 1em;
+}
+
+.extra-area .value {
+  line-height: 0;
+  margin: 1em 1em 1em 1em;
 }
