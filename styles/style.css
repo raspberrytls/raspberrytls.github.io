@@ -434,12 +434,13 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 
 .title-block .title {
 	bottom: 10px;
+	color: var(--light-pink);
 }
 
 .title-block .subtitle {
 	bottom: -15px;
 	font-family: MPLUSRounded1c, sans-serif;
-	color: var(--light-pink);
+	color: var(--pink);
 }
 
 .title-block .title, .title-block .subtitle {
