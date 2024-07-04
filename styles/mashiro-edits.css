@@ -837,17 +837,17 @@ a.msr-fn-inline {
 .extra-area {
   border: 1px solid var(--dark-teal);
   border-radius: 5px;
+  margin-top: 1em;
 }
 
-.tab-header {
+.extra-area .tab-header {
   border-bottom: 1px solid var(--dark-teal);
   border-radius: 5px 5px 0 0;
   background: var(--grey);
 }
 
 .tab-header__name {
-  font-size: 1.2em;
-  font-weight: bold;
+  font-weight: bold!important;
   text-align: center;
 }
 
