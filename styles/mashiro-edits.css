@@ -42,6 +42,8 @@ body {
 
 .label {
   text-align: center;
+  line-height: 1em;
+  margin: 1em 1em 0em 1em;
 }
 
 .value {
@@ -856,7 +858,7 @@ a.msr-fn-inline {
 }
 
 .extra-area .value {
-  line-height: 0;
+  line-height: 1.5em;
   margin: 0.5em 1em 1.5em 1em;
 }
 

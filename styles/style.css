@@ -434,6 +434,9 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 
 .title-block .title {
 	bottom: 10px;
+}
+
+.title-block .title b {
 	color: var(--light-pink);
 }
 
