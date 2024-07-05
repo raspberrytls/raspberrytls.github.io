@@ -889,3 +889,22 @@ a.msr-fn-inline {
 .extra-area img {
   max-width: 250px;
 }
+
+@media (max-width:800px) {
+  .info {
+    grid-template-columns: 32% 33% 32%;
+  }
+
+  .info-item {
+    padding: 0.25;
+    font-size: 0.75em;
+  }
+
+  .info-item .label {
+    margin: 0.25em 0.25em 0.5em 0.25em;
+  }
+
+  .info-item .value {
+    line-height: 1.5em;
+  }
+}
