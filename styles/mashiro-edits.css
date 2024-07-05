@@ -918,4 +918,9 @@ a.msr-fn-inline {
   .title-block .subtitle {
     visibility: hidden;
   }
+
+  ..msr-icon__base {
+    width: 40px !important;
+    height: 40px !important;
+  }
 }
