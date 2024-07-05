@@ -808,38 +808,38 @@ body {
 }
 
 .info-item.season {
-  grid-column:1/2;
-  grid-row:1/2;
+  grid-column:1/2!important;
+  grid-row:1/2!important;
 }
 
 .info-item.chapters {
-  grid-column:2/3;
-  grid-row:1/2;
+  grid-column:2/3!important;
+  grid-row:1/2!important;
 }
 
 .info-item.writer {
-  grid-column:3/4;
-  grid-row:1/2;
+  grid-column:3/4!important;
+  grid-row:1/2!important;
 }
 
 .info-item.characters {
-  grid-column: 1/4;
-  padding: 5px 10px 0;
+  grid-column: 1/4!important;
+  padding: 5px 10px 0!important;
 }
 
 .info-item.translation {
-  grid-column:1/2;
-  grid-row:3/3;
+  grid-column:1/2!important;
+  grid-row:3/3!important;
 }
 
 .info-item.proofing {
-  grid-column:2/3;
-  grid-row:3/3;
+  grid-column:2/3!important;
+  grid-row:3/3!important;
 }
 
 .info-item.date {
-  grid-column:3/4;
-  grid-row:3/3;
+  grid-column:3/4!important;
+  grid-row:3/3!important;
 }
 
 .info-item .label {
