@@ -907,4 +907,15 @@ a.msr-fn-inline {
   .info-item .value {
     line-height: 1.5em;
   }
+
+  .title-block .title {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0em 0.5em;
+    bottom: 0px;
+  }
+
+  .title-block .subtitle {
+    visibility: hidden;
+  }
 }
