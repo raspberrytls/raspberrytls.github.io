@@ -891,13 +891,9 @@ a.msr-fn-inline {
 }
 
 @media (max-width:800px) {
-  .info {
-    grid-template-columns: 32% 33% 32%;
-  }
-
   .info-item {
-    padding: 0.25;
-    font-size: 0.75em;
+    padding: 0.25!important;
+    font-size: 0.75em!important;
   }
 
   .info-item .label {
@@ -919,8 +915,8 @@ a.msr-fn-inline {
     visibility: hidden;
   }
 
-  ..msr-icon__base {
-    width: 40px !important;
-    height: 40px !important;
+  .msr-icon__base {
+    width: 40px!important;
+    height: 40px!important;
   }
 }
