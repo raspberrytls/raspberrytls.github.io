@@ -870,6 +870,8 @@ a.msr-fn-inline {
   border-bottom: 1px solid var(--dark-teal);
   border-radius: 5px 5px 0 0;
   background: var(--grey);
+  text-align: center;
+  font-weight: bold;
 }
 
 .tab-head__name {
