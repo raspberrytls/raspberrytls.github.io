@@ -866,13 +866,13 @@ a.msr-fn-inline {
   margin-top: 1em;
 }
 
-.extra-area .tab-header {
+.extra-area .tab-head {
   border-bottom: 1px solid var(--dark-teal);
   border-radius: 5px 5px 0 0;
   background: var(--grey);
 }
 
-.tab-header__name {
+.tab-head__name {
   font-weight: bold!important;
   text-align: center;
 }
