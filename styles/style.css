@@ -916,3 +916,8 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 		box-shadow: none;
 	}
 }
+
+iframe {
+	aspect-ratio: 16 / 9;
+	width: 100% !important;
+}
