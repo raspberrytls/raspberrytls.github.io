@@ -145,6 +145,11 @@ figure img {
 	box-shadow: 4px 3px var(--darkest-grey);
 }
 
+iframe {
+	aspect-ratio: 16 / 9;
+	width: 100% !important;
+}
+
 .main {
 	margin: 0 auto;
 	margin-top:30px;
@@ -915,9 +920,4 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	.main {
 		box-shadow: none;
 	}
-}
-
-iframe {
-	aspect-ratio: 16 / 9;
-	width: 100% !important;
 }
