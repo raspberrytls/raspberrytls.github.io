@@ -842,6 +842,10 @@ video {
 	border-radius: 5px;
 }
 
+.photo-gallery img {
+	
+}
+
 #scroll-container {
 	margin-right: 20px;
 	margin-left: 20px;
