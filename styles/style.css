@@ -828,7 +828,14 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 	padding: 0em 1em;
 }
 
-.assorted-item img, .assorted-item video, .assorted-item iframe {
+.assorted-item img, .assorted-item iframe {
+	width: 100%;
+	box-shadow: 4px 3px var(--dark-grey);
+	margin: 1em 0em;
+	border-radius: 5px;
+}
+
+video {
 	width: 100%;
 	box-shadow: 4px 3px var(--dark-grey);
 	margin: 1em 0em;
