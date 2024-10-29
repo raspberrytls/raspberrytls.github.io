@@ -493,7 +493,7 @@ body.oissu-image .oissu__embed .oissu .os-unit img.os-identifier {
 }
 
 .storybutton {
-    background-color: var(--pink);
+    background-color: var(--dark-pink);
     margin-left: 0.1em;
     margin-right: 0.1em;
     margin-bottom: 0.3em;
