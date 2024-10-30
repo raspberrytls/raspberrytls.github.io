@@ -851,7 +851,7 @@ video {
 
 .photo-gallery img {
 	margin: 0.25em;
-  max-height: 250px;
+	max-width: 45%;
   border: 1px solid var(--dark-teal);
 }
 
