@@ -152,6 +152,7 @@ iframe {
 
 u {
 	text-decoration-color: var(--dark-teal);
+	text-decoration-thickness: 1px;
 }
 
 .main {
