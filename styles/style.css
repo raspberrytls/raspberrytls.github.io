@@ -235,6 +235,11 @@ u {
 	max-width: 100%;
 	height: auto;
 }
+
+.page img {
+	max-width: 100%;
+	height: auto;
+}
   
 /*Used for the header below the header image.*/
 .sub {
